@@ -10,3 +10,13 @@ Drag the highlighted selection to include the total row (B7 to H7)
 Question 1
 What does the Yearly total sales look like?
 * Similar to the yearly bikes revenue
+
+
+For the Revenue by Category chart, display the percentage for each category.
+Select the Revenue by Category chart.
+From the Chart Tools Design tab, change the chart style to display the data as a percentage including the data label as percentages. 
+You can do this by either selecting a style from the Chart Styles group or from the Chart Layouts group by selecting one of the Quick Layouts.
+Question 2
+What does the Yearly total sales look like?
+* 72%
+
