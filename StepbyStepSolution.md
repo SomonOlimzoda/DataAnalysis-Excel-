@@ -5,65 +5,109 @@ Download the lab file [Lab1Start v5.xlsx](https://github.com/SomonOlimzoda/DataA
 
 For the **Yearly Category Revenue** chart, display the total revenue for each year as a separate line.
 
-Create a Total Revenue line in the range C7 to H7 by summing the annual revenue in rows 3 through 6. Label the row as Total Revenue in cell B7
-Select the **Yearly Category Revenue** chart.
-The data source for the chart is highlighted.
-Drag the highlighted selection to include the total row (B7 to H7)
+```
+1. Create a Total Revenue line in the range C7 to H7 by summing the annual revenue in rows 3 through 6. 
+2. Label the row as Total Revenue in cell B7
+3. Select the Yearly Category Revenue chart.
+4. The data source for the chart is highlighted.
+5. Drag the highlighted selection to include the total row (B7 to H7)
+```
 
 **Question 1**
 
 What does the Yearly total sales look like?
-**Similar to the yearly bikes revenue**
 
-For the **Yearly Category Revenue** chart, display the total revenue for each year as a separate line.
-
-1. Create a Total Revenue line in the range C7 to H7 by summing the annual revenue in rows 3 through 6. Label the row as Total Revenue in cell B7
-2. Select the **Yearly Category Revenue** chart.
-3. The data source for the chart is highlighted.
-4. Drag the highlighted selection to include the total row (B7 to H7)
-
-**Question 1**
-
-What does the Yearly total sales look like?
-**Similar to the yearly bikes revenue**
+:heavy_check_mark: Similar to the yearly bikes revenue
 
 
 **Question 2**
 
 What does the Yearly total sales look like?
-**72%**
+
+:heavy_check_mark: 72%
 
 For the Revenue by Country chart, sort the countries to display the one with the highest revenue showing at the top and the one with the lowest revenue at the bottom.
 
+```
 Select the data source for the Revenue by Country chart.
 Sort the data by Revenue from Largest to Smallest ensuring you also sort the countries with the revenue.
 Select the Revenue by Country chart.
 Select the Y axis, the axis that shows the country name.
 Select Categories in reverse order in the Axis options.
+```
 
 **Question 3**
 
-**PROBLEM**
-
 Rank the Countries from the highest to lowest revenue. (Highest in Zone 1, Lowest in Zone 6)
+
+```
+1. United States
+2. Austalia
+3. United Kingdom
+4. Germany
+5. France
+6. Canada
+```
+
 
 **Quiz time**
 
-Download the quiz file SalesForCourse_quizz_table.xlsx to answer the questions below.
+Download the quiz file [SalesForCourse_quizz_table.xlsx](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/SalesForCourse_quizz_table.xlsx) to answer the questions below.
 
+**Question 1**
 
+What is the difference between a table and a range in Excel? Select four that apply.
 
+In tables, you can add many types of totals for each column without writing any formulas.
+Tables are formatted with alternate colors by default.
+Formulas in tables refer to other columns by name and not by regular Excel reference.
+Formulas in table columns are automatically applied to new rows.
 
+**Question 2**
 
+If you filter the table to show only sales in United Kingdom, what will be calculated in the Total row?
 
+The totals will recalculate according to the filtered rows.
 
+**Question 3**
 
+You are only interested in the data for male customers in France. After inserting a Total Row to the Excel table and setting the appropriate filters, answer the following questions.
 
+How many rows are displayed (what is the record count)? Do not include thousands separator (for example commas or semi-colons).
 
+2573
+ 
+What is the total revenue for the displayed rows? Only provide whole number. Do not provide symbols, thousands separators, or any decimals places.
 
+1770366
+ 
+What is the average revenue for the displayed rows? Only provide numbers, no currency symbols, thousands separators, and report to two decimal places (including the decimal in the format 000.00).
 
+688.06
 
+### Lab 2
 
+Download the lab file [Lab2Start v5.xlsx](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Lab2Start%20v5.xlsx) to answer the questions below.
 
+The first thing you need to do is to convert the data into an Excel table.
+
+Once you do that, you can add total row, filter the data, and the total will reflect the total only for the filtered data. Let's try this. Add a total row for the table, and use the Sum aggregation to show the total of the Revenue column and then filter the data only for United States.
+
+**Question 1**
+
+What is the total revenue for all the sales in the United States?
+
+27975547
+
+Now, you need to add several columns, derived from existing columns in the data. Before adding columns, it is good practice to clear any filters you previously applied.
+
+First, let's add a "Month" column. Insert a new column to the left of the Customer ID column, and use formula to derive the month of sales from the Date column.
+Here, we can use the Text() function and look for a format code in the examples that would work on a date field.
+
+**Question 2**
+
+What is the total revenue for all the sales in the month of December?
+
+9086931
 
 
