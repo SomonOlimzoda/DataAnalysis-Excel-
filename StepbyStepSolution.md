@@ -55,9 +55,13 @@ Download the quiz file [SalesForCourse_quizz_table.xlsx](https://github.com/Somo
 What is the difference between a table and a range in Excel? Select four that apply.
 
 :heavy_check_mark: In tables, you can add many types of totals for each column without writing any formulas.
+
 :heavy_check_mark:Tables are formatted with alternate colors by default.
+
 :heavy_check_mark:Formulas in tables refer to other columns by name and not by regular Excel reference.
+
 :heavy_check_mark:Formulas in table columns are automatically applied to new rows.
+
 
 ### Question 2
 
