@@ -1,2 +1,12 @@
 # Here I describe a step by step solution
 
+For the Yearly Category Revenue chart, display the total revenue for each year as a separate line.
+
+Create a Total Revenue line in the range C7 to H7 by summing the annual revenue in rows 3 through 6. Label the row as Total Revenue in cell B7
+Select the Yearly Category Revenue chart.
+The data source for the chart is highlighted.
+Drag the highlighted selection to include the total row (B7 to H7)
+
+Question 1
+What does the Yearly total sales look like?
+* Similar to the yearly bikes revenue
