@@ -1,7 +1,7 @@
 ## Here I describe a step by step solution
 
 ### Lab 1
-Download the lab file Lab1Start v5.xlsx to answer the questions below.
+Download the lab file [Lab1Start v5.xlsx](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Lab1Start%20v5.xlsx) to answer the questions below.
 
 For the **Yearly Category Revenue** chart, display the total revenue for each year as a separate line.
 
@@ -10,7 +10,8 @@ Select the **Yearly Category Revenue** chart.
 The data source for the chart is highlighted.
 Drag the highlighted selection to include the total row (B7 to H7)
 
-Question 1
+**Question 1**
+
 What does the Yearly total sales look like?
 * Similar to the yearly bikes revenue
 
@@ -20,7 +21,8 @@ Select the **Revenue by Category** chart.
 From the Chart Tools **Design** tab, change the chart style to display the data as a percentage including the data label as percentages. 
 You can do this by either selecting a style from the **Chart Styles** group or from the **Chart Layouts** group by selecting one of the **Quick Layouts**.
 
-Question 2
+**Question 2**
+
 What does the Yearly total sales look like?
 * 72%
 
@@ -32,7 +34,29 @@ Select the Revenue by Country chart.
 Select the Y axis, the axis that shows the country name.
 Select Categories in reverse order in the Axis options.
 
-Question 3
+**Question 3**
+
 **PROBLEM**
+
 Rank the Countries from the highest to lowest revenue. (Highest in Zone 1, Lowest in Zone 6)
+
+**Quiz time**
+
+Download the quiz file SalesForCourse_quizz_table.xlsx to answer the questions below.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
