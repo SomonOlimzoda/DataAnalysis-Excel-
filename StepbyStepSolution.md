@@ -40,11 +40,11 @@ Select Categories in reverse order in the Axis options.
 Rank the Countries from the highest to lowest revenue. (Highest in Zone 1, Lowest in Zone 6)
 
 :heavy_check_mark: 1. United States
-:heavy_check_mark: 2. Austalia
-:heavy_check_mark: 3. United Kingdom
-:heavy_check_mark: 4. Germany
-:heavy_check_mark: 5. France
-:heavy_check_mark: 6. Canada
+2. Austalia
+3. United Kingdom
+4. Germany
+5. France
+6. Canada
 
 ## Quiz time 
 
