@@ -174,19 +174,96 @@ Save your Excel file - you will need this work in the next Exercise (Lab 3B).
 
 ### Lab 3B
 
+Now you can start adding some charts to the sheet.
 
+First, add a pivot chart for the pivot table that shows yearly sales (revenue) by Country (the pivot table you created for question 2 in Lab 3A). Select a Line chart to display the yearly trend. Make sure that the Years are located in the X axis, the Revenue in the Y axis, and the Countries as categories.
+##
 
+#### Question 1
 
+In this chart, you can clearly see the sales trend for each Country. Which country’s trend displays the most fluctuation in sales when compared to the other countries?
+##
 
+Add another pivot chart for the pivot table that shows yearly sales (revenue) by Product Category (the pivot table you created for question 1 in Lab 3A). Select a Column chart to display the yearly sales by category so that the years are together.
+##
 
+#### Question 2
 
+In which year does the Bikes category have the lowest revenue?
+##
 
+Add another pivot chart, this time for the pivot table that shows Revenue by Age Group (the pivot table you created for question 5 in Lab 3A). Select a Pie chart to display the proportion of each Age Group (remember the chart styles) with data labels, formatted to two decimal points.
+##
 
+#### Question 3
 
+In this chart, you can clearly see the proportion of sales (revenue) for each Age Group. What is the proportion of sales (revenue) for Young Adults?
+##
 
+Add another pivot chart, this time for the pivot table that shows Revenue by Frame size (the pivot table you created for question 4 in Lab 3A). Select a Bar chart to display the order of revenue by Frame size. Sort the Y axis to show the Frame size that has the highest revenue on the top.
+##
 
+#### Question 4
 
+In this chart, you can clearly see the order of sales (revenue) by Frame size. Which frame size had the lowest revenue?
+##
 
+### Quiz time 
+
+Download the quiz file [SalesForCourse_quizz_table.xlsx](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/SalesForCourse_quizz_table.xlsx) to answer Question 1 below.
+##
+
+#### Question 1
+
+Using the data provided, create a pivot with “Country” as rows, “Product Category” as columns, and “Revenue” as values. Slice months by “April.” What does the grand total for revenue (2,200,490) represent?
+
+#### Question 2
+
+Which objects can be sliced by slicers? Choose 3 that apply.
+
+#### Question 3
+
+When would you use both a slicer and a filter based on the same field?
+## 
+
+#### Question 4
+
+You have the following slicers.
+
+![App Screenshot](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Q2.png)
+
+Why are Bike Racks, Fenders and Gloves at the bottom of the Sub Category slicer in a lighter color?
+##
+
+#### Question 5
+
+You have the following slicers.
+
+![App Screenshot](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Q3.png)
+
+What will happen if you click "Bike Racks"?
+##
+
+### Scenario
+
+I have created several pivot tables and pivot charts for Lucy.
+
+You can download the latest report [here](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Lab4AStart%20v5.xlsx).
+
+So far everything has been well received by her. However, she would like to have easier ways to slice and dice the reports and charts herself.
+
+I sat down with Lucy, and come up with several different ways that Lucy could slice the data
+
+- Year
+- Country
+- Customer Gender
+- Age Group
+- Product Category
+- Sub Category
+ -Frame size
+##
+
+### Lab 4A
 
 
 
