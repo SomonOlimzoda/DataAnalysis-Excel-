@@ -265,7 +265,7 @@ I sat down with Lucy, and come up with several different ways that Lucy could sl
 - Age Group
 - Product Category
 - Sub Category
- -Frame size
+-Frame size
 ##
 
 ### Lab 4A
