@@ -2,6 +2,8 @@
 ## Lab 1
 Download the lab file [Lab1Start v5.xlsx](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Lab1Start%20v5.xlsx) to answer the questions below.
 
+Your first solution should look like this [where numbers may not be the same](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/1.png).
+
 For the **Yearly Category Revenue** chart, display the total revenue for each year as a separate line.
 
 ```
