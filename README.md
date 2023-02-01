@@ -1,8 +1,17 @@
-# Data Analysis with Excel
+## Data Analysis with Excel
 
+### Scenario
+You are the new marketing manager of an established Bicycle company. The company sells bicycles and accessories, such as clothing and other accessories to bikers in six countries.
 
-## Lab 1
+The company has just hired Lucy as its new Sales manager. You are tasked to introduce Lucy to the company, its product portfolio and its sales performance since 2011. To do this, you have asked Jack, the IT manager to prepare some data for you.
+
+### Lab 1
 Download the lab file [Lab1Start v5.xlsx](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Lab1Start%20v5.xlsx) to answer the questions below.
+
+The first thing you'd like to do is to present the data graphically. You do this by creating charts for the three groups of data you received from Jack, your IT manager. Give each chart a descriptive title as shown in the three charts below.
+
+Your first solution should look like this [where numbers may not be the same](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/1.png).
+
 
 For the **Yearly Category Revenue** chart, display the total revenue for each year as a separate line.
 
