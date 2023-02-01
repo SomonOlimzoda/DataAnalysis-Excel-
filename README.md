@@ -1,4 +1,4 @@
-## Data Analysis with Excel
+# Data Analysis with Excel
 
 ### Scenario
 I'm a new marketing manager of an established Bicycle company. The company sells bicycles and accessories, such as clothing and other accessories to bikers in six countries.
@@ -14,9 +14,7 @@ The first thing I'd like to do is to present the data graphically. I do this by 
 
 Your first solution should look like this [where numbers may not be the same](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/1.png).
 
-For the **Yearly Category Revenue** chart, display the total revenue for each year as a separate line.
-
-### Answer the following questions:
+#### Answer the following questions:
 
 #### Question 1
 
@@ -47,23 +45,20 @@ If you filter the table to show only sales in United Kingdom, what will be calcu
 You are only interested in the data for male customers in France. After inserting a Total Row to the Excel table and setting the appropriate filters, answer the following questions.
 
 How many rows are displayed (what is the record count)? Do not include thousands separator (for example commas or semi-colons).
+
 ##
 
 ### Scenario
 
 While my first attempt to show the company's performance to Lucy was not bad, clearly she has a lot more requirements than what you provided. She wants to know more about the year over year sales, sliced into different categories, sub-categories, and countries. She also wants to see additional information such as customer demographics.
 
-Jack has provided me with a different data source. This time the data has more than one hundred thousand rows. 
-
-Before I can create additional reports to Lucy, first I need to prepare the data.
+Jack has provided me with a different data source. This time the data has more than one hundred thousand rows. Before I can create additional reports to Lucy, first I need to prepare the data.
 
 ## Lab 2
 
 Download the lab file [Lab2Start v5.xlsx](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Lab2Start%20v5.xlsx) to answer the questions below.
 
-The first thing you need to do is to convert the data into an Excel table.
-
-Once you do that, you can add total row, filter the data, and the total will reflect the total only for the filtered data.
+The first thing you need to do is to convert the data into an Excel table. Once you do that, you can add total row, filter the data, and the total will reflect the total only for the filtered data.
 
 #### Question 1
 
