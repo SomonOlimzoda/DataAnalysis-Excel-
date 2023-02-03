@@ -571,11 +571,120 @@ Upon reviewing the growth report you created, (download the file here), Lucy ask
 Specifically, Lucy wants to see the report visualized using a hierarchical chart.
 
 ![App Screenshot](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/hierarchy.png)
+##
 
+### Lab 7
 
+Download the lab file [Lab7Start v5.xlsx](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Lab7Start%20v5.xlsx) to answer the questions below.
 
+Let's add another sheet to the workbook and name it Composition.
 
+Start by adding a new pivot table with Year, Country, Customer Gender, and Age Group as Filters, Product Category and Sub Category as Rows, and Sum of Revenue as Values.
 
+Format the pivot table to show in Tabular form, do not show subtotals and grand totals, and repeat all item labels.
+
+Now, copy the structure of the rows and columns to the cells next to the pivot table, that is the Product categories and Sub categories as Rows. Delete the data area for now.
+
+Populate the data area of the newly created cross tabular structure using SUMIFS() function.
+Assuming that you have:
+
+- F7: Product Category eg. "Accessories"
+- G7: Sub Category eg. "Bike Racks"
+- C1: Year filter
+- C2: Country Filter
+- C3: Customer Gender Filter
+- C4: Age Group Filter
+
+Then, the cell that corresponds the Product Category Accessories and Sub Category Bike Racks would have the following formula:
+
+=SUMIFS(SalesTable[Revenue], 
+
+SalesTable[Product Category],$F7, 
+
+SalesTable[Sub Category],$G7, 
+
+SalesTable[Year],IF($C$1="(All)",">0",$C$1), 
+
+SalesTable[Country],IF($C$2="(All)","*",$C$2), 
+
+SalesTable[Customer Gender],IF($C$3="(All)","*",$C$3), 
+
+SalesTable[Age Group],IF($C$4="(All)","*",$C$4)) 
+
+Once your table is populated, remove the fields from the Rows, Columns, and Values of the Pivot table, so that only the filters remains. Align the filters with your cross tabular report. Create a treemap or sunburst chart based on the data in the cross tabular report. Name the chart "Sales Composition".
+
+#### Question 1
+
+Explore the sales composition of Bikes category for each Age Group. Which Age Group does the composition (rank of sales) differ than the rest?
+
+#### Question 2
+
+Now explore the sales composition of Bikes category for each Age Group, for the Male customers. Which Age Group does the composition (rank of sales) differ than the rest?
+
+#### Question 3
+
+Clear all filters. Now, filter for the year 2016 and Germany. Rank the sales from the highest to lowest for the Clothing category. 
+
+#### Question 4
+
+Keep the filter settings and add filter by Male customers. Rank the sales from the highest to lowest for the Clothing category.
+
+#### Question 5
+
+Keep the filter settings and add filter by Youth Age Group. Rank the sales from the highest to lowest for the Clothing category.
+
+### Quiz time
+
+#### Question
+
+You want combine data in two ranges/tables in a single pivot. What should you do?
+##
+
+### Scenario
+
+Lastly, Lucy wants to have more information about the customer demographics in addition to the already available age and gender. Since your data has Customer ID for each row, you can "connect" these rows with your customer demographics database. Your customer demographics is stored in an Access database, which you can download [here](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Demographics.mdb).
+##
+
+### Lab 8
+
+Download a file [Lab8Start v5.xlsx](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Lab8Start%20v5.xlsx). This Excel file contains two charts that, depending on your version of Excel, that you may not be able to view. The Composition worksheet contains a Treemap and Sunburst chart that will not be read by Excel 2010 and 2013 users. This will not affect your ability to complete this lab.
+
+1. From a new worksheet, go to the Data tab and on the Get External Data group, select the From Access option. This will bring up the Select Data Source dialog box.
+
+2. Navigate to where you saved the Demographics.mdb file, select it and click on the Open button.
+
+3. From the Import Data dialog box, ensure that Table is selected for how you want to view the data, within the existing worksheet (or select New Worksheet if you didn’t start from a new one), then click on the OK button.
+
+4. There is only one table in this database so the import is rather simple. Rename the worksheet Demographic Data. Your import should result in 18,484 rows (plus the header) and seven columns of data.
+
+5. Create a new pivot table from the SalesTable then click More tables. Remember to select Yes to Excel’s prompt to create a new pivot table.
+
+6. Now, add the MaritalStatus and TotalChildren fields from the Customer_demographic table as Rows and Order Quantity from the SalesTable as Values. In addition, add the Product Category as filters.  
+
+#### Question 1
+
+For those customers who bought bikes, what are the top three (bought the most quantity) customer profiles (marital status and number of children)?
+
+Now, remove the MaritalStatus and TotalChildren fields from the Rows and replace them with the YearlyIncome field from the Customer_demographic table.
+
+#### Question 2
+
+What are the three income brackets for customers who bought the most bikes (quantity), in order from the income bracket with the highest number of sales (in Zone 1) to income bracket with the lowest number of sales (in Zone 3)?
+##
+
+Now, remove the YearlyIncome field from the Rows and replace it with the EnglishEducation field from the Customer_demographic table.
+
+#### Question 3
+
+For those customers who bought bikes, what are the top two (bought the most quantity) education levels?
+##
+
+Lastly, remove the EnglishEducation field from the Rows and replace it with the HouseOwnerFlag field from the Customer_demographics table. Format the Sum of Order Quantity to show as Percentage of Grand Total with two decimal places.
+##
+
+#### Question 4
+
+What is the percentage of the customers who bought Bikes and are house owners?
 
 
 
