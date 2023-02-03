@@ -23,15 +23,14 @@ A solution should look like this (numbers may not be the same).
 ![App Screenshot](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/1.png)
 
 Once you have created the three charts above, let's customize them a little bit more.
+##
 
-```bash
-For the Yearly Category Revenue chart, display the total revenue for each year as a separate line.
+For the **Yearly Category Revenue** chart, display the total revenue for each year as a separate line.
 
 1. Create a Total Revenue line in the range C7 to H7 by summing the annual revenue in rows 3 through 6. Label the row as Total Revenue in cell B7
-2. Select the Yearly Category Revenue chart.
+2. Select the **Yearly Category Revenue** chart.
 3. The data source for the chart is highlighted.
 4. Drag the highlighted selection to include the total row (B7 to H7)
-```
 ##
 
 #### Question 1
@@ -39,29 +38,26 @@ For the Yearly Category Revenue chart, display the total revenue for each year a
 What does the Yearly total sales look like?
 ##
 
-```bash
-For the Revenue by Category chart, display the percentage for each category.
+For the **Revenue by Category** chart, display the percentage for each category.
 
-1. Select the Revenue by Category chart.
-2. From the Chart Tools Design tab, change the chart style to display the data as a percentage including the data label as percentages. 
-You can do this by either selecting a style from the Chart Styles group or from the Chart Layouts group by selecting one of the Quick Layouts.
-```
+1. Select the **Revenue by Category** chart.
+2. From the Chart Tools **Design** tab, change the chart style to display the data as a percentage including the data label as percentages. 
+You can do this by either selecting a style from the **Chart Styles** group or from the **Chart Layouts** group by selecting one of the **Quick Layouts**.
 ##
 
 #### Question 2
 
-What does the Yearly total sales look like?
+What percentage of the total revenue comes from the **Bikes** category?
 ##
 
-```bash
-For the Revenue by Country chart, sort the countries to display the one with the highest revenue showing at the top and the one with the lowest revenue at the bottom.
+For the **Revenue by Country** chart, sort the countries to display the one with the highest revenue showing at the top and the one with the lowest revenue at the bottom.
 
-1. Select the data source for the Revenue by Country chart.
-2. Sort the data by Revenue from Largest to Smallest ensuring you also sort the countries with the revenue.
-3. Select the Revenue by Country chart.
+1. Select the data source for the **Revenue by Country** chart.
+2. Sort the data by **Revenue** from **Largest to Smallest** ensuring you also sort the countries with the revenue.
+3. Select the **Revenue by Country** chart.
 4. Select the Y axis, the axis that shows the country name.
-5. Select Categories in reverse order in the Axis options.
-```
+5. Select **Categories in reverse order** in the **Axis options**.
+##
 
 #### Question 3
 
@@ -71,6 +67,7 @@ Rank the Countries from the highest to lowest revenue.
 ### Quiz time 
 
 Download the quiz file [SalesForCourse_quizz_table.xlsx](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/SalesForCourse_quizz_table.xlsx) to answer the questions below.
+##
 
 #### Question 1
 
@@ -79,6 +76,7 @@ What is the difference between a table and a range in Excel?
 #### Question 2
 
 If you filter the table to show only sales in United Kingdom, what will be calculated in the Total row?
+##
 
 #### Question 3
 
@@ -86,9 +84,9 @@ You are only interested in the data for male customers in France. After insertin
 
 How many rows are displayed (what is the record count)?
 
-What is the total revenue for the displayed rows? Only provide whole number.
+What is the total revenue for the displayed rows?
 
-What is the average revenue for the displayed rows? Only provide numbers, no currency symbols, thousands separators, and report to two decimal places 
+What is the average revenue for the displayed rows?
 ##
 
 ### Scenario
@@ -99,45 +97,82 @@ Jack has provided me with a different data source. This time the data has more t
 
 Before I can create additional reports to Lucy, first I need to prepare the data.
 
-![App Screenshot](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/prepare%20the%20data.png)
+![App Screenshot](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/preparing_data.png)
 ##
 
 ### Lab 2
 
 Download the lab file [Lab2Start v5.xlsx](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Lab2Start%20v5.xlsx) to answer the questions below.
 
+The first thing I need to do is to convert the data into an Excel table.
+
+Once I do that, I can add total row, filter the data, and the total will reflect the total only for the filtered data.
+
+Add a total row for the table, and use the Sum aggregation to show the total of the **Revenue** column and then filter the data only for **United States**.
+##
+
 #### Question 1
 
-What is the total revenue for all the sales in the United States?
+What is the total revenue for all the sales in the **United States**?
+##
+
+Now, what I need is add several columns, derived from existing columns in the data. Before adding columns, it is good practice to clear any filters you previously applied.
+
+First, let's add a "Month" column. Insert a new column to the left of the **Customer ID** column, and use formula to derive the month of sales from the **Date** column.
+##
 
 #### Question 2
 
-What is the total revenue for all the sales in the month of December?
+What is the total revenue for all the sales in the month of **December**?
+##
+
+Next, let's add an "Age Group" column. Remember to clear any filters you previously applied. Insert a new column to the left of the **Customer Gender**, and use formula to derive the age group from the **Customer Age** column. Let's group the customers based on the following criteria:
+
+- Youth (<25)
+- Young Adults (25-34)
+- Adults (35-64)
+- Seniors (>64)
+##
 
 #### Question 3
 
-What is the total revenue for all the sales for Young Adults Age Group?
+What is the total revenue for all the sales for **Young Adults** Age Group?
+##
+
+Now, let's add a "Frame Size" column. Insert a new column to the left of the** Order Quantity**, and use a combination of the IF() and RIGHT() functions to derive the frame size of a bicycle from the last two characters of the **Product** column, when the **Product Category** is **Bikes**. Otherwise, leave it blank.
+##
 
 #### Question 4
 
-What is the total revenue for all the bikes with frame size 62 for the customer age group Seniors?
+What is the total revenue for all the bikes with frame size **62** for the customer age group **Seniors**?
+##
+
+Last but not least, let's add a "Profit" column. Insert a new column to the right of the **Revenue**, and use formula to derive the Profit from both the **Revenue** and **Cost** columns. Show the total for the **Profit** column. Use the Sum aggregation in the total row of the table, for the **Profit** column.
+##
 
 #### Question 5
 
-What is the total profit for United States sales in the month of October 2015, for customer age group Adults?
+What is the total profit for **United States** sales in the month of **October 201**5, for customer age group **Adults**?
 ##
 
 ### Quiz time 
 
 Download the quiz file [SalesForCourse_quizz_table.xlsx](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/SalesForCourse_quizz_table.xlsx) to answer questions 4 through 7 below.
+##
 
 #### Q1. Drag and Drop
 
 You have the following Pivot Table fields. You need to calculate the number of sales transactions by age. Drag the appropriate field names and aggregated field names to the appropriate Pivot Table Areas (Filters, Rows, Columns, or Values) to perform the task
 
+![App Screenshot](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Q10.png)
+##
+
 #### Q2. Drag and Drop
 
 You have the following Pivot Table fields. Your manager asks you to build a pivot table that shows revenue by state and country. How would you arrange the field names and aggregated field names to the appropriate Pivot Table Areas (Filters, Rows, Columns, or Values)?
+
+![App Screenshot](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Q11.png)
+##
 
 #### Question 3
 
@@ -152,9 +187,9 @@ Using the data provided, create a pivot with “Country “as rows, “Month” 
 
 Create a new PivotTable with “Customer Gender” as rows, “Product Category” as columns, and “Revenue” as values.
 
-a. How much revenue came from the purchase of bikes by women? Provide a whole number without currency symbols, thousands separators (for example a comma or semi-colon), or decimal places.
+a. How much revenue came from the purchase of bikes by women?
 
-b. How much revenue came from clothing purchased by men? Provide a whole number without currency symbols., thousands separators, or decimal places.
+b. How much revenue came from clothing purchased by men? 
 ##
 
 #### Question 6
@@ -182,35 +217,37 @@ e. The largest revenue value registered in a single transaction during 2015:
 Now I have prepared the data in an Excel table, I can start to create pivot tables to aggregate the data and create some reports. 
 
 From conversation with Lucy, I know that she is interested in looking into the yearly sales data broken down by countries, product categories, and age groups.
+
+![App Screenshot](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/creating_report.png)
 ##
 
 ### Lab 3A
 
 Download the lab file [Lab3Start v5.xlsx](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Lab3AStart%20v5.xlsx) to answer the questions below.
 
-First, let's start by naming the Excel table. Name the Excel table prepared in the previous lab to SalesTable. From now on, every time you add a pivot table, it should be based on this SalesTable, unless mentioned otherwise.
+First, let's start by naming the Excel table. Name the Excel table prepared in the previous lab to **SalesTable**. From now                 ou add a pivot table, it should be based on this SalesTable, unless mentioned otherwise.
 
-Now, proceed to add your first pivot table. Insert a new pivot table based on the SalesTable to a new sheet. Arrange the layout so that the pivot table displays the Product Category and Sub Category in the Rows, Year in the Columns, and Revenue (Sum of) as the Values.
+Now, proceed to add your first pivot table. Insert a new pivot table based on the SalesTable to a new sheet. Arrange the layout so that the pivot table displays the **Product Category** and **Sub Category** in the **Rows**, **Year** in the **Columns**, and **Revenue** (Sum of) as the **Values**.
 ##
 
 #### Question 1
 
-Which year did the company start selling Touring Bikes?
+Which year did the company start selling **Touring Bikes**?
 ##
 
-Insert another pivot table to the same sheet, next to the existing pivot table. Arrange the layout so that the pivot table displays the Country and State in the Rows, Year in the Columns, and Revenue (Sum of) as the Values. Sort the pivot table by Sum of Revenue so that the Country and State with the highest revenue is displayed first.
+Insert another pivot table to the same sheet, next to the existing pivot table. Arrange the layout so that the pivot table displays the **Country** and **State** in the **Rows**, **Year** in the **Columns**, and **Revenue** (Sum of) as the **Values**. Sort the pivot table by **Sum of Revenue** so that the **Country** and **State** with the highest revenue is displayed first.
 ##
 
 #### Question 2
 
-Rank the States for Germany, from the highest to lowest revenue.
+Rank the **States** for **Germany**, from the highest to lowest revenue.
 
 #### Question 3
 
 What about for the year 2013? Rank from the highest to lowest revenue. 
 ##
 
-Let's add another pivot table. This time arrange the layout so that the pivot table displays the Frame Size in the Rows and Revenue (Sum of) as the Values. Hide the rows that do not have a Frame size (blank Frame size), then sort the pivot table by Sum of Revenue so that the Frame size with the highest revenue is displayed first.
+Let's add another pivot table. This time arrange the layout so that the pivot table displays the **Frame Size** in the **Rows** and **Revenue** (Sum of) as the **Values**. Hide the rows that do not have a Frame size (blank Frame size), then sort the pivot table by **Sum of Revenue** so that the **Frame size** with the highest revenue is displayed first.
 ##
 
 #### Question 4
@@ -218,21 +255,19 @@ Let's add another pivot table. This time arrange the layout so that the pivot ta
 Which Frame Size has the highest revenue?
 ##
 
-Last but not least, add another pivot table with Age Group as the Rows and Revenue (Sum of) as the Values. You will learn how to custom sort the Age Group in the next module. But for now, sort the pivot table by Sum of Revenue so that the Age Group with the highest revenue is displayed first.
+Last but not least, add another pivot table with **Age Group** as the **Rows** and **Revenue** (Sum of) as the **Values**. You will learn how to custom sort the Age Group in the next module. But for now, sort the pivot table by **Sum of Revenue** so that the **Age Group** with the highest revenue is displayed first.
 ##
 
 #### Question 5
 
-Which Age Group has the lowest revenue?
+Which **Age Group** has the lowest revenue?
 ##
-
-Save your Excel file - you will need this work in the next Exercise (Lab 3B).
 
 ### Lab 3B
 
-Now you can start adding some charts to the sheet.
+Now I can start adding some charts to the sheet.
 
-First, add a pivot chart for the pivot table that shows yearly sales (revenue) by Country (the pivot table you created for question 2 in Lab 3A). Select a Line chart to display the yearly trend. Make sure that the Years are located in the X axis, the Revenue in the Y axis, and the Countries as categories.
+First, I add pivot chart for the pivot table that shows yearly sales (revenue) by Country (the pivot table you created for question 2 in Lab 3A). Select a **Line** chart to display the yearly trend. Make sure that the **Years** are located in the X axis, the **Revenue** in the Y axis, and the **Countries** as categories.
 ##
 
 #### Question 1
@@ -248,15 +283,15 @@ Add another pivot chart for the pivot table that shows yearly sales (revenue) by
 In which year does the Bikes category have the lowest revenue?
 ##
 
-Add another pivot chart, this time for the pivot table that shows Revenue by Age Group (the pivot table you created for question 5 in Lab 3A). Select a Pie chart to display the proportion of each Age Group (remember the chart styles) with data labels, formatted to two decimal points.
+Add another pivot chart, this time for the pivot table that shows Revenue by Age Group (the pivot table you created for question 5 in Lab 3A). Select a **Pie** chart to display the proportion of each **Age Group** (remember the chart styles) with data labels, formatted to two decimal points.
 ##
 
 #### Question 3
 
-In this chart, you can clearly see the proportion of sales (revenue) for each Age Group. What is the proportion of sales (revenue) for Young Adults?
+In this chart, you can clearly see the proportion of sales (revenue) for each **Age Group**. What is the proportion of sales (revenue) for **Young Adults**?
 ##
 
-Add another pivot chart, this time for the pivot table that shows Revenue by Frame size (the pivot table you created for question 4 in Lab 3A). Select a Bar chart to display the order of revenue by Frame size. Sort the Y axis to show the Frame size that has the highest revenue on the top.
+Add another pivot chart, this time for the pivot table that shows Revenue by Frame size (the pivot table you created for question 4 in Lab 3A). Select a **Bar** chart to display the order of revenue by **Frame size**. Sort the Y axis to show the **Frame size** that has the highest revenue on the top.
 ##
 
 #### Question 4
@@ -271,7 +306,9 @@ Download the quiz file [SalesForCourse_quizz_table.xlsx](https://github.com/Somo
 
 #### Question 1
 
-Using the data provided, create a pivot with “Country” as rows, “Product Category” as columns, and “Revenue” as values. Slice months by “April.” What does the grand total for revenue (2,200,490) represent?
+Using the data provided, create a pivot with “Country” as rows, “Product Category” as columns, and “Revenue” as values. Slice months by “April.” 
+
+What does the grand total for revenue (2,200,490) represent?
 
 #### Question 2
 
@@ -304,8 +341,6 @@ What will happen if you click "Bike Racks"?
 
 I have created several pivot tables and pivot charts for Lucy.
 
-You can download the latest report [here](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Lab4AStart%20v5.xlsx).
-
 So far everything has been well received by her. However, she would like to have easier ways to slice and dice the reports and charts herself.
 
 I sat down with Lucy, and come up with several different ways that Lucy could slice the data
@@ -317,6 +352,8 @@ I sat down with Lucy, and come up with several different ways that Lucy could sl
 - Product Category
 - Sub Category
 - Frame size
+
+![App Screenshot](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/creating_dashboard.png)
 ##
 
 ### Lab 4A
