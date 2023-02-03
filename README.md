@@ -68,10 +68,12 @@ Rank the Countries from the highest to lowest revenue.
 ### Quiz time 
 
 Download the quiz file [SalesForCourse_quizz_table.xlsx](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/SalesForCourse_quizz_table.xlsx) to answer the questions below.
+##
 
 #### Question 1
 
 What is the difference between a table and a range in Excel?
+##
 
 #### Question 2
 
@@ -177,6 +179,7 @@ You have the following Pivot Table fields. Your manager asks you to build a pivo
 #### Question 3
 
 You have a pivot that is based on an Excel table. You need to add new rows to the Excel table and want to be able to see the values for these new rows in the PivotTable. What should you do?
+##
 
 #### Question 4
 
@@ -241,6 +244,7 @@ Insert another pivot table to the same sheet, next to the existing pivot table. 
 #### Question 2
 
 Rank the **States** for **Germany**, from the highest to lowest revenue.
+##
 
 #### Question 3
 
@@ -309,10 +313,12 @@ Download the quiz file [SalesForCourse_quizz_table.xlsx](https://github.com/Somo
 Using the data provided, create a pivot with “Country” as rows, “Product Category” as columns, and “Revenue” as values. Slice months by “April.” 
 
 What does the grand total for revenue (2,200,490) represent?
+##
 
 #### Question 2
 
 Which objects can be sliced by slicers? Choose 3 that apply.
+##
 
 #### Question 3
 
@@ -398,6 +404,7 @@ Create an additional pivot chart to show **Sales by Country** using **Pie** char
 #### Question 2
 
 What is the percentage of **Australia** sales (of total sales) in the year that it has the least sales (previous question)?
+##
 
 #### Question 3
 
@@ -412,6 +419,7 @@ For the next two questions, filter the charts by **Australia** using the country
 #### Question 4
 
 Based only on years where all three categories have sales (there are three slices in the pie) in Australia, which year does the **Bikes** category have the lowest proportion of sales?
+##
 
 #### Question 5
 
@@ -426,6 +434,7 @@ Create an additional pivot chart to show **Sales by Customer Gender** using **Pi
 #### Question 1
 
 Which statement best describes the proportion of sales by customer gender?
+##
 
 #### Question 2
 
@@ -496,6 +505,7 @@ Now, add a calculated field to your pivot table, name the field **Margin** with 
 #### Question 3
 
 What is the total margin for Australia in the year 2016?
+##
 
 #### Question 4
 
@@ -528,10 +538,12 @@ What is the main advantage of referencing cells in a Pivot Table with the GetPiv
 #### Question 2
 
 What are the disadvantages of referencing cells in a Pivot Table with the GetPivotData() function and not by regular cell reference? Choose three that apply.
+##
 
 #### Question 3
 
 What are the advantages of creating aggregates using SUMIFS() rather than using a Pivot Table? 
+##
 
 #### Question 4
 
@@ -584,9 +596,11 @@ SalesTable[Customer Gender],IF($C$2="(All)","*",$C$2),
 SalesTable[Age Group],IF($C$3="(All)","*",$C$3))
 ```
 
+##
 Confirm that your filter boxes (cells C1, C2 and C3) contain the same value that is used in the formula (All). If not, then replace the “(All)” with the exact value found in your filter boxes (it could be All or your language’s word for All. (Note that you will have to confirm these values for the next set of formulas as well)
 
 Now, copy this formula (using Ctrl C keyboard combination) and paste it (using Ctrl V keyboard combination) into the other Years and Product Category cells for all three categories (Accessories, Bikes, Clothing). When you are done, your calculated values in cells L7:Q7, L16:Q16 and L20:Q20 should match their respective pivot table values.
+##
 
 In addition, assuming that you have:
 
@@ -611,6 +625,7 @@ SalesTable[Age Group],IF($C$3="(All)","*",$C$3))
 Now, copy this formula and paste it into the other Years and Sub Category cells. When I finish it, my calculated values in these cells should match their respective pivot table values.
 
 Once my table is populated, I remove the fields from the Rows, Columns, and Values of the Pivot table, so that only the filters remains. Align the filters with my cross tabular report and add sparklines (to show the series high point) next to the column containing the last year of data.
+##
 
 Upon completion the first cross tabular report, I will create another one with the same structure next to it (excluding the 2011 column). This time, for % Change in Revenue, which is essentially the difference between the two years, divided by the previous year. For example, one formula could be:
 
@@ -629,18 +644,22 @@ When you're done, you should have something like this (the below is just an exam
 #### Question 1
 
 Without applying any filter, which year does the **Accessories** category have negative growth?
+##
 
 #### Question 2
 
 Filter the report for **Youth Age Group**. Which two years do the **Accessories** category have negative growth?
+##
 
 #### Question 3
 
 Without applying any filter, which two years do the **Bikes** category have negative growth?
+##
 
 #### Question 4
 
 Filter the report for **Australia**. Which year do the **Bikes** category have the highest growth?
+##
 
 #### Question 5
 
@@ -662,6 +681,7 @@ How would you modify the following formula to include age ranges in the followin
 #### Question 2
 
 What is the main purpose of using the Treemap and Sunburst charts to display data? 
+##
 
 #### Question 3
 
@@ -718,18 +738,22 @@ Once your table is populated, remove the fields from the Rows, Columns, and Valu
 #### Question 1
 
 Explore the sales composition of **Bikes** category for each **Age Group**. Which **Age Group** does the composition (rank of sales) differ than the rest?
+##
 
 #### Question 2
 
 Now explore the sales composition of **Bikes** category for each **Age Group**, for the **Male** customers. Which **Age Group** does the composition (rank of sales) differ than the rest?
+##
 
 #### Question 3
 
 Clear all filters. Now, filter for the year **2016** and **Germany**. Rank the sales from the highest to lowest for the **Clothing** category. 
+##
 
 #### Question 4
 
 Keep the filter settings and add filter by **Male** customers. Rank the sales from the highest to lowest for the **Clothing** category.
+##
 
 #### Question 5
 
@@ -767,6 +791,7 @@ This Excel file contains two charts that. The Composition worksheet contains a *
 5. Create a new pivot table **from the SalesTable** then click **More tables**. Remember to select **Yes** to Excel’s prompt to create a new pivot table.
 
 6. Now, add the **MaritalStatus** and **TotalChildren** fields from the **Customer_demographic** table as **Rows** and **Order Quantity** from the **SalesTable** as **Values**. In addition, add the **Product Category** as filters.  
+##
 
 #### Question 1
 
