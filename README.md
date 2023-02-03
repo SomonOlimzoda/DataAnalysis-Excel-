@@ -1,26 +1,67 @@
-# Data Analysis with Excel
+## Data Analysis with Excel
 
 ### Scenario
 I'm a new marketing manager of an established Bicycle company. The company sells bicycles and accessories, such as clothing and other accessories to bikers in six countries.
 
 ![App Screenshot](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/bicycle.png)
 
-
 The company has just hired Lucy as its new Sales manager. I'm tasked to introduce Lucy to the company, its product portfolio and its sales performance since 2011. To do this, I should ask Jack, the IT manager to prepare some data for me.
 
 ![App Screenshot](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Lucy%20and%20Jack.png)
+
+Now, it's my job to present this data in a compelling manner.
 ##
 
 ### Lab 1
+
 Download the lab file [Lab1Start v5.xlsx](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Lab1Start%20v5.xlsx) to answer the questions below.
+
+The first thing I'd like to do is to present the data graphically. I will do this by creating charts for the three groups of data received from Jack, our IT manager. I give each chart a descriptive title as shown in the three charts below.
+
+A solution should look like this (numbers may not be the same).
+
+![App Screenshot](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/1.png)
+
+Once you have created the three charts above, let's customize them a little bit more.
+
+```bash
+For the Yearly Category Revenue chart, display the total revenue for each year as a separate line.
+
+1. Create a Total Revenue line in the range C7 to H7 by summing the annual revenue in rows 3 through 6. Label the row as Total Revenue in cell B7
+2. Select the Yearly Category Revenue chart.
+3. The data source for the chart is highlighted.
+4. Drag the highlighted selection to include the total row (B7 to H7)
+```
+##
 
 #### Question 1
 
 What does the Yearly total sales look like?
+##
+
+```bash
+For the Revenue by Category chart, display the percentage for each category.
+
+1. Select the Revenue by Category chart.
+2. From the Chart Tools Design tab, change the chart style to display the data as a percentage including the data label as percentages. 
+You can do this by either selecting a style from the Chart Styles group or from the Chart Layouts group by selecting one of the Quick Layouts.
+```
+##
 
 #### Question 2
 
 What does the Yearly total sales look like?
+##
+
+```bash
+For the Revenue by Country chart, sort the countries to display the one with the highest revenue showing at the top and the one with the lowest revenue at the bottom.
+
+1. Select the data source for the Revenue by Country chart.
+2. Sort the data by Revenue from Largest to Smallest ensuring you also sort the countries with the revenue.
+3. Select the Revenue by Country chart.
+4. Select the Y axis, the axis that shows the country name.
+5. Select Categories in reverse order in the Axis options.
+```
 
 #### Question 3
 
@@ -41,14 +82,24 @@ If you filter the table to show only sales in United Kingdom, what will be calcu
 
 #### Question 3
 
+You are only interested in the data for male customers in France. After inserting a Total Row to the Excel table and setting the appropriate filters, answer the following questions.
+
 How many rows are displayed (what is the record count)?
+
+What is the total revenue for the displayed rows? Only provide whole number.
+
+What is the average revenue for the displayed rows? Only provide numbers, no currency symbols, thousands separators, and report to two decimal places 
 ##
 
 ### Scenario
 
 While my first attempt to show the company's performance to Lucy was not bad, clearly she has a lot more requirements than what you provided. She wants to know more about the year over year sales, sliced into different categories, sub-categories, and countries. She also wants to see additional information such as customer demographics.
 
-Jack has provided me with a different data source. This time the data has more than one hundred thousand rows. Before I can create additional reports to Lucy, first I need to prepare the data.
+Jack has provided me with a different data source. This time the data has more than one hundred thousand rows. 
+
+Before I can create additional reports to Lucy, first I need to prepare the data.
+
+![App Screenshot](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/prepare%20the%20data.png)
 ##
 
 ### Lab 2
