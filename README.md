@@ -360,7 +360,8 @@ I sat down with Lucy, and come up with several different ways that Lucy could sl
 
 Download the lab file [Lab4AStart v5.xlsx](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Lab4AStart%20v5.xlsx) to answer the questions below.
 
-Start by adding a new sheet named Dashboard. Then move (Cut and Paste) the four charts that you have to that sheet. Arrange the charts as appropriate.
+Start by adding a new sheet named **Dashboard**. Then move (Cut and Paste) the four charts that you have to that sheet. Arrange the charts as appropriate.
+##
 
 For easy reference, let's give the charts titles if they don't have any, or rename them as appropriate. Name the four charts as follows:
 
@@ -368,52 +369,58 @@ For easy reference, let's give the charts titles if they don't have any, or rena
 - Yearly Sales by Category
 - Sales by Frame Size
 - Sales by Age Group
+##
 
 You can now add slicers to the sheet. Select the Yearly Sales by Country chart, and add seven slicers corresponding to Year, Country, Customer Gender, Age Group, Product Category, Sub Category and Frame Size. Arrange the slicers as appropriate.
+##
 
 The next thing you need to do is to connect these slicers to the charts. Let's do this chart by chart.
 
-Connect the Yearly Sales by Country chart to all slicers, except the Year slicer. In another words, disconnect the Year slicer from the Yearly Sales by Country
-Connect the Yearly Sales by Category chart to the Age Group, Country, Customer Gender, and Frame Size slicers.
-Connect the Sales by Frame Size chart to all slicers, except the Frame Size slicer.
-Connect the Sales by Age Group chart to all slicers, except the Age Group.
+1. Connect the **Yearly Sales by Country** chart to all slicers, except the **Year** slicer. In another words, disconnect the **Year** slicer from the **Yearly Sales by Country**
+2. Connect the **Yearly Sales by Category** chart to the **Age Group**, **Country**, **Customer Gender**, and **Frame Size** slicers.
+3. Connect the Sales by **Frame Size** chart to all slicers, except the **Frame Size** slicer.
+4. Connect the Sales by **Age Group** chart to all slicers, except the **Age Group**.
+##
+
+For niceties, you can clear the **Gridlines** on the Dashboard,
 
 Once I've done the above, I'am ready to present the dashboard to Lucy.
+##
 
 #### Question 1
 
-A quick glance on the Yearly Sales by Country shows that Australia has an unusual trend compared to the other countries. Which year does Australia have the least sales (revenue)??
+A quick glance on the **Yearly Sales by Country** shows that **Australia** has an unusual trend compared to the other countries. Which year does **Australia** have the least sales (revenue)??
 ##
 
-Create an additional pivot chart to show Sales by Country using Pie chart. Show percentages for each slice of the pie and connect the chart to all the slicers, except the Country slicer. Overall, Australia commands 25% of the company's total sales. But in some of the years, this proportion changes.
+Create an additional pivot chart to show **Sales by Country** using **Pie** chart. Show percentages for each slice of the pie and connect the chart to all the slicers, except the **Country** slicer. Overall, Australia commands 25% of the company's total sales. But in some of the years, this proportion changes.
 ##
 
 #### Question 2
 
-What is the percentage of Australia sales (of total sales) in the year that it has the least sales (previous question)?
+What is the percentage of **Australia** sales (of total sales) in the year that it has the least sales (previous question)?
 
 #### Question 3
 
-Let's filter the charts by Australia using the Country slicer. What might be the cause of this trend?
+Let's filter the charts by **Australia** using the **Country** slicer. What might be the cause of this trend?
 ##
 
-Based on the previous answer, create an additional pivot chart to show Sales by Category using a Pie chart. Show percentages for each slice of the pie and connect the chart to all the slicers, except the Category slicer.
+Based on the previous answer, create an additional pivot chart to show **Sales by Category** using a **Pie** chart. Show percentages for each slice of the pie and connect the chart to all the slicers, except the **Category** slicer.
 
-For the next two questions, filter the charts by Australia using the country slicer and play around with the Year filter. Notice for different years, the changes in composition of Australia's sales by Category.
+For the next two questions, filter the charts by **Australia** using the country slicer and play around with the **Year** filter. Notice for different years, the changes in composition of **Australia's** sales by **Category**.
 ##
 
 #### Question 4
 
-Based only on years where all three categories have sales (there are three slices in the pie) in Australia, which year does the Bikes category have the lowest proportion of sales?
+Based only on years where all three categories have sales (there are three slices in the pie) in Australia, which year does the **Bikes** category have the lowest proportion of sales?
 
 #### Question 5
 
-What is the percentage of Bikes sales (of total sales) in that year (based on the previous question)?
+What is the percentage of **Bikes** sales (of total sales) in that year (based on the previous question)?
 ##
 
 ### Lab 4B
 
-Create an additional pivot chart to show Sales by Customer Gender using Pie chart. Show percentages for each slice of the pie and connect the chart to all the slicers, except the Customer Gender slicer.
+Create an additional pivot chart to show **Sales by Customer Gender** using **Pie** chart. Show percentages for each slice of the pie and connect the chart to all the slicers, except the **Customer Gender** slicer.
 ##
 
 #### Question 1
@@ -422,15 +429,15 @@ Which statement best describes the proportion of sales by customer gender?
 
 #### Question 2
 
-Which Bike's frame size is more popular for each Gender? Place the Frame size into the appropriate box.
+Which Bike's frame size is more popular for each **Gender**? Place the **Frame size** into the appropriate box.
 ##
 
-What about Customer Gender vs age group? Right now the Sales by Age Group chart does not differentiate by Gender. Modify this chart to be a Column chart. Show the Customer Gender side-by-side for each age group. Ensure that the chart is connected to all slicers. Last but not least, sort the Age Group appropriately.
+What about Customer Gender vs age group? Right now the **Sales by Age Group** chart does not differentiate by **Gender**. Modify this chart to be a **Column** chart. Show the **Customer Gender** side-by-side for each age group. Ensure that the chart is connected to all slicers. Last but not least, sort the **Age Group** appropriately.
 ## 
 
 #### Question 3
 
-In Australia, which Age Group has more sales revenue to females than to males? (Select two that apply)
+In **Australia**, which **Age Group** has more sales revenue to females than to males?
 ##
 
 ### Quiz time 
