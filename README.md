@@ -270,5 +270,329 @@ I sat down with Lucy, and come up with several different ways that Lucy could sl
 
 ### Lab 4A
 
+Download the lab file [Lab4AStart v5.xlsx](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Lab4AStart%20v5.xlsx) to answer the questions below.
+
+Start by adding a new sheet named Dashboard. Then move (Cut and Paste) the four charts that you have to that sheet. Arrange the charts as appropriate.
+
+For easy reference, let's give the charts titles if they don't have any, or rename them as appropriate. Name the four charts as follows:
+
+- Yearly Sales by Country
+- Yearly Sales by Category
+- Sales by Frame Size
+- Sales by Age Group
+
+You can now add slicers to the sheet. Select the Yearly Sales by Country chart, and add seven slicers corresponding to Year, Country, Customer Gender, Age Group, Product Category, Sub Category and Frame Size. Arrange the slicers as appropriate.
+
+The next thing you need to do is to connect these slicers to the charts. Let's do this chart by chart.
+
+Connect the Yearly Sales by Country chart to all slicers, except the Year slicer. In another words, disconnect the Year slicer from the Yearly Sales by Country
+Connect the Yearly Sales by Category chart to the Age Group, Country, Customer Gender, and Frame Size slicers.
+Connect the Sales by Frame Size chart to all slicers, except the Frame Size slicer.
+Connect the Sales by Age Group chart to all slicers, except the Age Group.
+
+Once I've done the above, I'am ready to present the dashboard to Lucy.
+
+#### Question 1
+
+A quick glance on the Yearly Sales by Country shows that Australia has an unusual trend compared to the other countries. Which year does Australia have the least sales (revenue)??
+##
+
+Create an additional pivot chart to show Sales by Country using Pie chart. Show percentages for each slice of the pie and connect the chart to all the slicers, except the Country slicer. Overall, Australia commands 25% of the company's total sales. But in some of the years, this proportion changes.
+##
+
+#### Question 2
+
+What is the percentage of Australia sales (of total sales) in the year that it has the least sales (previous question)?
+
+#### Question 3
+
+Let's filter the charts by Australia using the Country slicer. What might be the cause of this trend?
+##
+
+Based on the previous answer, create an additional pivot chart to show Sales by Category using a Pie chart. Show percentages for each slice of the pie and connect the chart to all the slicers, except the Category slicer.
+
+For the next two questions, filter the charts by Australia using the country slicer and play around with the Year filter. Notice for different years, the changes in composition of Australia's sales by Category.
+##
+
+#### Question 4
+
+Based only on years where all three categories have sales (there are three slices in the pie) in Australia, which year does the Bikes category have the lowest proportion of sales?
+
+#### Question 5
+
+What is the percentage of Bikes sales (of total sales) in that year (based on the previous question)?
+##
+
+### Lab 4B
+
+Create an additional pivot chart to show Sales by Customer Gender using Pie chart. Show percentages for each slice of the pie and connect the chart to all the slicers, except the Customer Gender slicer.
+##
+
+#### Question 1
+
+Which statement best describes the proportion of sales by customer gender?
+
+#### Question 2
+
+Which Bike's frame size is more popular for each Gender? Place the Frame size into the appropriate box.
+##
+
+What about Customer Gender vs age group? Right now the Sales by Age Group chart does not differentiate by Gender. Modify this chart to be a Column chart. Show the Customer Gender side-by-side for each age group. Ensure that the chart is connected to all slicers. Last but not least, sort the Age Group appropriately.
+## 
+
+#### Question 3
+
+In Australia, which Age Group has more sales revenue to females than to males? (Select two that apply)
+##
+
+### Quiz time 
+
+#### Question 1
+
+You have a sales table that contains “Quantity,” “Unit Price,” and “Unit Cost.” How could you add the following calculations to be used in a PivotTable?
+- Total Cost = ?
+- Total Revenue
+- Total Profit
+- Profit Margin
+##
+
+#### Question 2
+
+![App Screenshot](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Q4.png)
+
+Conditional formatting (Green – Yellow – Red Color Scale) was applied on the above PivotTable. What can you change to the formatting to better visualize possible outliers in the data?
+##
+
+### Scenario
+
+Lucy was impressed with the dashboard you created.
+
+With the dashboard, she is able to narrow down her interest. Specifically, she is interested with the sales in Australia. She would like to perform simple profitability analysis on the product category and sub-category, for specific year. Furthermore, she wants to have the option of going deeper to product level.
+##
+
+### Lab 5
+
+Download the lab file [Lab5Start v5.xlsx](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Lab5Start%20v5.xlsx) to answer the questions below.
+
+Start by adding a new sheet named Details. Add a pivot table that shows Order Quantity, Revenue, and Profit by Product Category. Add the Year and Country field to the filter list.
+
+Add the Sub Category field to the rows of the pivot table. Make sure the rows are fully expanded. Now you have quite a few numerical data shown in the pivot table, which might not be as easy to analyze as before. Apply Data bars conditional formatting to the Order Quantity, Revenue and Profit column on Sub Category level. Use blue, green, and yellow respectively.
+
+Filter the pivot table for Australia and 2016, and answer the following questions.
+
+#### Question 1
+
+Which Sub Category sold the most quantity?
+
+#### Question 2
+
+Which Sub Category has the most revenue?
+
+Now, add a calculated field to your pivot table, name the field Margin with the value derived from the Profit and Revenue column. Format the field as percentage with two decimal places.
+##
+
+#### Question 3
+
+What is the total margin for Australia in the year 2016?
+
+#### Question 4
+
+Using the same filters, which category has the lowest margin?
+##
+
+Now, apply Color scales conditional formatting to Margin for the Sub Category level.
+
+#### Question 5
+
+Which Sub Category has the lowest margin?
+
+Let's dig a little deeper. Add the Product field to the Rows, under Sub Category. Ensure that the Year and Country filter still select 2016 and Australia respectively. Apply Color scales conditional formatting only to the cells showing the margin for the Product.
+##
+
+#### Question 6
+
+Which product has the least margin?
+##
+
+### Quiz time 
+
+#### Question 1
+
+What is the main advantage of referencing cells in a Pivot Table with the GetPivotData() function rather than by regular cell reference?
+##
+
+#### Question 2
+
+What are the disadvantages of referencing cells in a Pivot Table with the GetPivotData() function and not by regular cell reference? Choose three that apply.
+
+#### Question 3
+
+What are the advantages of creating aggregates using SUMIFS() rather than using a Pivot Table? Choose three that apply
+
+#### Question 4
+
+What are the disadvantages of creating aggregates using SUMIFS() rather than using a Pivot Table? Choose three that apply.
+##
+
+### Scenario
+
+Lucy seems intrigued your presentation on Australia's sales.
+
+Now, she wants to review the sales difference (growth) for Product Category and Sub Category between year 2015 and 2016. She wants to be able to filter the report by all the options available, including Customer Gender and Age Group.
+##
+
+### Lab 6
+
+Download the lab file Lab6 [Startv5.xlsx](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Lab6Start%20v5.xlsx) to answer the questions below.
+
+You will create two reports. One with the sales for each year and the other with the % Change in Revenue from Year to Year. Each report is a cross-tabular format with Product Categories and Sub categories on the rows and Year on the columns, with Sum of Revenue as the aggregate data. When you are done, neither report will be based on a Pivot Table. However, you will enable a Pivot Table filter to allow the selection of Country, Customer Gender, and Age Group for these reports. Visually, you would like to have something like this:
+
+![App Screenshot](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Q5.png)
+
+Let's start by adding a new sheet named Growth. Starting in cell B1, add a new pivot table using SalesTable as the source with Country, Customer Gender, and Age Group as Filters, Product Category and Sub Category as Rows, Year as Columns, and Sum of Revenue as Values.
+
+Now, copy the structure of the rows and columns to the cells next to the pivot table, that is, copy the Years labels in C6:H6 (excluding the Grand Total) to range L6:Q6, and the Product categories and Sub categories labels in B7:B26 (excluding the Grand Total) to range K7:K26. Highlight and copy range B6:H26, place your cursor in cell K6, right click and from the Paste Options, select Formatting (R).
+
+Alternatively, you can select B6:H26, place your cursor in cell K6, right click and from the Paste Options, select Values (V) and then, once again right click in cell K6, and from the Paste Options, select Formatting (R). After which, delete the data area.
+
+Populate the data area of the newly created cross tabular structure using SUMIFS() function.
+Assuming that you have:
+
+- K7: Product Category eg "Accessories"
+- Q6: Year eg. "2016"
+- C1: Country Filter
+- C2: Customer Gender Filter
+- C3: Age Group Filter
+##
+
+Then, the cell that corresponds to Year 2016 for the Product Category Accessories would have the following formula
+
+=SUMIFS(SalesTable[Revenue], 
+
+SalesTable[Product Category],$K7, 
+
+SalesTable[Year],Q$6, 
+
+SalesTable[Country],IF($C$1="(All)","*",$C$1), 
+
+SalesTable[Customer Gender],IF($C$2="(All)","*",$C$2), 
+
+SalesTable[Age Group],IF($C$3="(All)","*",$C$3))
+
+Confirm that your filter boxes (cells C1, C2 and C3) contain the same value that is used in the formula (All). If not, then replace the “(All)” with the exact value found in your filter boxes (it could be All or your language’s word for All. (Note that you will have to confirm these values for the next set of formulas as well)
+
+Now, copy this formula (using Ctrl C keyboard combination) and paste it (using Ctrl V keyboard combination) into the other Years and Product Category cells for all three categories (Accessories, Bikes, Clothing). When you are done, your calculated values in cells L7:Q7, L16:Q16 and L20:Q20 should match their respective pivot table values.
+
+In addition, assuming that you have:
+
+- K8: Sub Category eg "Bike Racks"
+- Q6: Year eg. "2016"
+- C1: Country Filter
+- C2: Customer Gender Filter
+- C3: Age Group Filter
+##
+
+Then, the cell that corresponds to Year 2016 for the Sub Category Bike Racks would have the following formula
+
+=SUMIFS(SalesTable[Revenue], 
+
+SalesTable[Sub Category],$K8, 
+
+SalesTable[Year],Q$6, 
+
+SalesTable[Country],IF($C$1="(All)","*",$C$1), 
+
+SalesTable[Customer Gender],IF($C$2="(All)","*",$C$2), 
+
+SalesTable[Age Group],IF($C$3="(All)","*",$C$3))
+
+Now, copy this formula (using Ctrl C keyboard combination) and paste it (using Ctrl V keyboard combination) into the other Years and Sub Category cells. When you are done, your calculated values in these cells should match their respective pivot table values.
+
+Once your table is populated, remove the fields from the Rows, Columns, and Values of the Pivot table, so that only the filters remains. Align the filters with your cross tabular report and add sparklines (to show the series high point) next to the column containing the last year of data.
+
+When you are done with the first cross tabular report, create another one with the same structure next to it (excluding the 2011 column). This time, for % Change in Revenue, which is essentially the difference between the two years, divided by the previous year.
+For example, one formula could be:
+
+=IF(C7<>0,(D7-C7)/C7,0)
+
+Present the data as percentage without decimal places. Apply an Icon Sets conditional formatting to differentiate positive and negative growth. Edit your conditional formatting icon set rules to display the icons similar to the rule below:
+
+![App Screenshot](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Q6.png)
+
+When you're done, you should have something like this (the below is just an example, your values may not necessarily match):
+
+![App Screenshot](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Q7.png)
+
+#### Question 1
+
+Without applying any filter, which year does the Accessories category have negative growth?
+
+#### Question 2
+
+Filter the report for Youth Age Group. Which two years do the Accessories category have negative growth?
+
+#### Question 3
+
+Without applying any filter, which two years do the Bikes category have negative growth?
+
+#### Question 4
+
+Filter the report for Australia. Which year do the Bikes category have the highest growth?
+
+#### Question 5
+
+Keep the Australia filter. In the year that Bikes sales have the highest growth (previous question), which Sub Category of Bikes has the highest growth?
+##
+
+### Quiz time
+
+#### Question 1
+
+How would you modify the following formula to include age ranges in the following report?
+
+```bash
+=SUMIFS(SalesTable[Revenue],SalesTable[Customer Gender],B$4,SalesTable[Country],$A5)
+```
+![App Screenshot](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Q8.png)
+
+#### Question 2
+
+What is the main purpose of using the Treemap and Sunburst charts to display data? Select the best answer.
+
+#### Question 3
+
+You want to create a SUMIFS() formula that references a specific cell in your spreadsheet as you copy it to a range of data containing multiple columns. What should you do?
+##
+
+### Scenario
+
+Upon reviewing the growth report you created, (download the file here), Lucy asked for a report that shows composition of Product Categories and Sub Categories based on certain filters, including Year, Country, Customer Gender, and Age Group.
+
+Specifically, Lucy wants to see the report visualized using a hierarchical chart.
+
+![App Screenshot](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/hierarchy.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
