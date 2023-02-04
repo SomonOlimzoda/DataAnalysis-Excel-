@@ -522,7 +522,7 @@ What is the main advantage of referencing cells in a Pivot Table with the GetPiv
 
 #### Question 2
 
-What are the disadvantages of referencing cells in a Pivot Table with the GetPivotData() function and not by regular cell reference? Choose three that apply.
+What are the disadvantages of referencing cells in a Pivot Table with the GetPivotData() function and not by regular cell reference?
 ##
 
 #### Question 3
