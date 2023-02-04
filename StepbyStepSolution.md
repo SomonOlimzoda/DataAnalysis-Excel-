@@ -206,6 +206,8 @@ Download the quiz file [SalesForCourse_quizz_table.xlsx](https://github.com/Somo
 
 You have the following Pivot Table fields. You need to calculate the number of sales transactions by age. Drag the appropriate field names and aggregated field names to the appropriate Pivot Table Areas (Filters, Rows, Columns, or Values) to perform the task
 
+**Customer Age, Revenue, Sum of Customer Age, Count of Customer Age, Sum of Revenue**
+
 ![App Screenshot](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Q10.png)
 
 :heavy_check_mark: Customer Age as Rows, Count of Customer Age as Values
@@ -214,6 +216,8 @@ You have the following Pivot Table fields. You need to calculate the number of s
 #### Q2. Drag and Drop
 
 You have the following Pivot Table fields. Your manager asks you to build a pivot table that shows revenue by state and country. How would you arrange the field names and aggregated field names to the appropriate Pivot Table Areas (Filters, Rows, Columns, or Values)?
+
+**State, Country, Count of Revenue, Sum of Revenue**
 
 ![App Screenshot](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Q11.png)
 
@@ -311,6 +315,8 @@ Insert another pivot table to the same sheet, next to the existing pivot table. 
 
 Rank the **States** for **Germany**, from the highest to lowest revenue.
 
+**Saarland, Nordrhein-Westfalen, Hessen, Brandenburg, Hamburg, Bayern**
+
 :heavy_check_mark: Hessen
 
 :heavy_check_mark: Saarland
@@ -328,6 +334,8 @@ Rank the **States** for **Germany**, from the highest to lowest revenue.
 #### Question 3
 
 What about for the year 2013? Rank from the highest to lowest revenue. 
+
+**Saarland, Nordrhein-Westfalen, Hessen, Brandenburg, Hamburg, Bayern**
 
 :heavy_check_mark: Saarland
 
