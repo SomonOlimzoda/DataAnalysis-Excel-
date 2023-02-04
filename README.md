@@ -138,7 +138,7 @@ Last but not least, let's add a "Profit" column. Insert a new column to the righ
 
 #### Question 5
 
-What is the total profit for **United States** sales in the month of **October 201**5, for customer age group **Adults**?
+What is the total profit for **United States** sales in the month of **October 2015**, for customer age group **Adults**?
 ##
 
 ### Quiz time 
