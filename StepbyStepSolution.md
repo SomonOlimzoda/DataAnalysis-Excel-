@@ -1075,11 +1075,11 @@ What are the three income brackets for customers who bought the most bikes (quan
 
 **30000, 40000, 50000, 60000, 70000**
 
-Zone 1 :heavy_check_mark: 40000
+:heavy_check_mark: Zone 1: 40000
 
-Zone 2 :heavy_check_mark: 60000
+:heavy_check_mark: Zone 2: 60000
 
-Zone 3 :heavy_check_mark: 70000
+:heavy_check_mark: Zone 3: 70000
 ##
 
 Now, remove the YearlyIncome field from the Rows and replace it with the EnglishEducation field from the Customer_demographic table.
