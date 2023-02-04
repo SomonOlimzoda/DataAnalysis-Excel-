@@ -51,6 +51,8 @@ You can do this by either selecting a style from the **Chart Styles** group or f
 #### Question 2
 
 What percentage of the total revenue comes from the **Bikes** category?
+
+:heavy_check_mark: 72%
 ##
 
 For the **Revenue by Country** chart, sort the countries to display the one with the highest revenue showing at the top and the one with the lowest revenue at the bottom.
@@ -65,6 +67,18 @@ For the **Revenue by Country** chart, sort the countries to display the one with
 #### Question 3
 
 Rank the Countries from the highest to lowest revenue. 
+
+:heavy_check_mark: 1. United Stated
+
+:heavy_check_mark: 2. Australia
+
+:heavy_check_mark: 3. United Kingdom
+
+:heavy_check_mark: 4. Germany
+
+:heavy_check_mark: 5. France
+
+:heavy_check_mark: 6. Canada
 ##
 
 ### Quiz time 
@@ -75,11 +89,19 @@ Download the quiz file [SalesForCourse_quizz_table.xlsx](https://github.com/Somo
 #### Question 1
 
 What is the difference between a table and a range in Excel?
+
+:heavy_check_mark: In tables, you can add many types of totals for each column without writing any formulas and tables are formatted with alternate colors by default.
+
+:heavy_check_mark: Formulas in tables refer to other columns by name and not by regular Excel reference.
+
+:heavy_check_mark: Formulas in table columns are automatically applied to new rows.
 ##
 
 #### Question 2
 
 If you filter the table to show only sales in United Kingdom, what will be calculated in the Total row?
+
+:heavy_check_mark: The totals will recalculate according to the filtered rows.
 ##
 
 #### Question 3
@@ -88,9 +110,15 @@ You are only interested in the data for male customers in France. After insertin
 
 a. How many rows are displayed (what is the record count)?
 
+:heavy_check_mark: 2573
+
 b. What is the total revenue for the displayed rows?
 
+:heavy_check_mark: 1770366
+
 c. What is the average revenue for the displayed rows?
+
+:heavy_check_mark: 688.06
 ##
 
 ### Scenario
@@ -118,6 +146,8 @@ Add a total row for the table, and use the Sum aggregation to show the total of 
 #### Question 1
 
 What is the total revenue for all the sales in the **United States**?
+
+:heavy_check_mark: 27975547
 ##
 
 Now, what I need is add several columns, derived from existing columns in the data. Before adding columns, it is good practice to clear any filters you previously applied.
@@ -128,6 +158,8 @@ First, let's add a "Month" column. Insert a new column to the left of the **Cust
 #### Question 2
 
 What is the total revenue for all the sales in the month of **December**?
+
+:heavy_check_mark: 9086931
 ##
 
 Next, let's add an "Age Group" column. Remember to clear any filters you previously applied. Insert a new column to the left of the **Customer Gender**, and use formula to derive the age group from the **Customer Age** column. Let's group the customers based on the following criteria:
@@ -141,6 +173,8 @@ Next, let's add an "Age Group" column. Remember to clear any filters you previou
 #### Question 3
 
 What is the total revenue for all the sales for **Young Adults** Age Group?
+
+:heavy_check_mark: 30655614
 ##
 
 Now, let's add a "Frame Size" column. Insert a new column to the left of the** Order Quantity**, and use a combination of the IF() and RIGHT() functions to derive the frame size of a bicycle from the last two characters of the **Product** column, when the **Product Category** is **Bikes**. Otherwise, leave it blank.
@@ -149,6 +183,8 @@ Now, let's add a "Frame Size" column. Insert a new column to the left of the** O
 #### Question 4
 
 What is the total revenue for all the bikes with frame size **62** for the customer age group **Seniors**?
+
+:heavy_check_mark: 12452
 ##
 
 Last but not least, let's add a "Profit" column. Insert a new column to the right of the **Revenue**, and use formula to derive the Profit from both the **Revenue** and **Cost** columns. Show the total for the **Profit** column. Use the Sum aggregation in the total row of the table, for the **Profit** column.
@@ -156,7 +192,9 @@ Last but not least, let's add a "Profit" column. Insert a new column to the righ
 
 #### Question 5
 
-What is the total profit for **United States** sales in the month of **October 201**5, for customer age group **Adults**?
+What is the total profit for **United States** sales in the month of **October 2015**, for customer age group **Adults**?
+
+:heavy_check_mark: 138419
 ##
 
 ### Quiz time 
@@ -169,6 +207,8 @@ Download the quiz file [SalesForCourse_quizz_table.xlsx](https://github.com/Somo
 You have the following Pivot Table fields. You need to calculate the number of sales transactions by age. Drag the appropriate field names and aggregated field names to the appropriate Pivot Table Areas (Filters, Rows, Columns, or Values) to perform the task
 
 ![App Screenshot](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Q10.png)
+
+:heavy_check_mark: Customer Age as Rows, Count of Customer Age as Values
 ##
 
 #### Q2. Drag and Drop
@@ -176,16 +216,22 @@ You have the following Pivot Table fields. You need to calculate the number of s
 You have the following Pivot Table fields. Your manager asks you to build a pivot table that shows revenue by state and country. How would you arrange the field names and aggregated field names to the appropriate Pivot Table Areas (Filters, Rows, Columns, or Values)?
 
 ![App Screenshot](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Q11.png)
+
+:heavy_check_mark: Country, State as Rows, Sum of Revenue as Values
 ##
 
 #### Question 3
 
 You have a pivot that is based on an Excel table. You need to add new rows to the Excel table and want to be able to see the values for these new rows in the PivotTable. What should you do?
+
+:heavy_check_mark: Add rows anywhere in the table, and refresh the pivot table.
 ##
 
 #### Question 4
 
 Using the data provided, create a pivot with “Country “as rows, “Month” as columns, and “Revenue” as values. Drag “Year” to the filter area. What does the value 286,779 in the first summarized field of the pivot table (uppermost left value) represent?
+
+:heavy_check_mark: The aggregated value for January in France in 2015 and 2016.
 ##
 
 #### Q5. Numerical Input
@@ -194,7 +240,11 @@ Create a new PivotTable with “Customer Gender” as rows, “Product Category�
 
 a. How much revenue came from the purchase of bikes by women?
 
+:heavy_check_mark: 5728781
+
 b. How much revenue came from clothing purchased by men? 
+
+:heavy_check_mark: 1817262
 ##
 
 #### Question 6
@@ -202,19 +252,31 @@ b. How much revenue came from clothing purchased by men?
 Create a new PivotTable with “Country” as rows, “Product Category” as columns, “Year” as a filter, and “Revenue” as values. Filter by year 2015.
 
 Drill down into the data for the cell that represents the revenue for bike sales in Germany, 2015. A new worksheet is created with a table in it. Which option below best describes the content of this table?
+
+:heavy_check_mark: The table contains all rows in SalesTable corresponding to 2015, Bikes and Germany
 ##
 
 #### Q7. Numerical Input
 
 a. Total revenue from bike sales from the country with the highest revenue from bike sales in 2016:
 
+:heavy_check_mark: 2257187
+
 b. Number of sales transactions for bikes in the US in 2016:
+
+:heavy_check_mark: 1415
 
 c. Average number of items per transaction for clothing purchased in the US during 2016 rounded to the nearest whole number:
 
+:heavy_check_mark: 2
+
 d. The largest revenue value registered in a single transaction in the Germany during 2015:
 
+:heavy_check_mark: 3089
+
 e. The largest revenue value registered in a single transaction during 2015:
+
+:heavy_check_mark: 3224
 ##
 
 ### Scenario
@@ -238,6 +300,8 @@ Now, proceed to add your first pivot table. Insert a new pivot table based on th
 #### Question 1
 
 Which year did the company start selling **Touring Bikes**?
+
+:heavy_check_mark: 2013
 ##
 
 Insert another pivot table to the same sheet, next to the existing pivot table. Arrange the layout so that the pivot table displays the **Country** and **State** in the **Rows**, **Year** in the **Columns**, and **Revenue** (Sum of) as the **Values**. Sort the pivot table by **Sum of Revenue** so that the **Country** and **State** with the highest revenue is displayed first.
@@ -246,11 +310,36 @@ Insert another pivot table to the same sheet, next to the existing pivot table. 
 #### Question 2
 
 Rank the **States** for **Germany**, from the highest to lowest revenue.
+
+:heavy_check_mark: Hessen
+
+:heavy_check_mark: Saarland
+
+:heavy_check_mark: Nordrhein-Westfalen
+
+:heavy_check_mark: Hamburg
+
+:heavy_check_mark: Bayern
+
+:heavy_check_mark: Brandenburg
+
 ##
 
 #### Question 3
 
 What about for the year 2013? Rank from the highest to lowest revenue. 
+
+:heavy_check_mark: Saarland
+
+:heavy_check_mark: Hessen
+
+:heavy_check_mark: Nordrhein-Westfalen
+
+:heavy_check_mark: Hamburg
+
+:heavy_check_mark: Bayern
+
+:heavy_check_mark: Brandenburg
 ##
 
 Let's add another pivot table. This time arrange the layout so that the pivot table displays the **Frame Size** in the **Rows** and **Revenue** (Sum of) as the **Values**. Hide the rows that do not have a Frame size (blank Frame size), then sort the pivot table by **Sum of Revenue** so that the **Frame size** with the highest revenue is displayed first.
@@ -259,6 +348,8 @@ Let's add another pivot table. This time arrange the layout so that the pivot ta
 #### Question 4
 
 Which Frame Size has the highest revenue?
+
+:heavy_check_mark: 42
 ##
 
 Last but not least, add another pivot table with **Age Group** as the **Rows** and **Revenue** (Sum of) as the **Values**. You will learn how to custom sort the Age Group in the next module. But for now, sort the pivot table by **Sum of Revenue** so that the **Age Group** with the highest revenue is displayed first.
@@ -267,6 +358,8 @@ Last but not least, add another pivot table with **Age Group** as the **Rows** a
 #### Question 5
 
 Which **Age Group** has the lowest revenue?
+
+:heavy_check_mark: Seniors
 ##
 
 ### Lab 3B
@@ -279,6 +372,8 @@ First, I add pivot chart for the pivot table that shows yearly sales (revenue) b
 #### Question 1
 
 In this chart, you can clearly see the sales trend for each Country. Which country’s trend displays the most fluctuation in sales when compared to the other countries?
+
+:heavy_check_mark:  Australia
 ##
 
 Add another pivot chart for the pivot table that shows yearly sales (revenue) by Product Category (the pivot table you created for question 1 in Lab 3A). Select a Column chart to display the yearly sales by category so that the years are together.
@@ -287,6 +382,8 @@ Add another pivot chart for the pivot table that shows yearly sales (revenue) by
 #### Question 2
 
 In which year does the Bikes category have the lowest revenue?
+
+:heavy_check_mark: 2014
 ##
 
 Add another pivot chart, this time for the pivot table that shows Revenue by Age Group (the pivot table you created for question 5 in Lab 3A). Select a **Pie** chart to display the proportion of each **Age Group** (remember the chart styles) with data labels, formatted to two decimal points.
@@ -295,6 +392,8 @@ Add another pivot chart, this time for the pivot table that shows Revenue by Age
 #### Question 3
 
 In this chart, you can clearly see the proportion of sales (revenue) for each **Age Group**. What is the proportion of sales (revenue) for **Young Adults**?
+
+:heavy_check_mark: 35.95%
 ##
 
 Add another pivot chart, this time for the pivot table that shows Revenue by Frame size (the pivot table you created for question 4 in Lab 3A). Select a **Bar** chart to display the order of revenue by **Frame size**. Sort the Y axis to show the **Frame size** that has the highest revenue on the top.
@@ -303,6 +402,8 @@ Add another pivot chart, this time for the pivot table that shows Revenue by Fra
 #### Question 4
 
 In this chart, you can clearly see the order of sales (revenue) by Frame size. Which frame size had the lowest revenue?
+
+:heavy_check_mark: 54
 ##
 
 ### Quiz time 
@@ -315,16 +416,26 @@ Download the quiz file [SalesForCourse_quizz_table.xlsx](https://github.com/Somo
 Using the data provided, create a pivot with “Country” as rows, “Product Category” as columns, and “Revenue” as values. Slice months by “April.” 
 
 What does the grand total for revenue (2,200,490) represent?
+
+:heavy_check_mark: Total combined revenue for April in 2015 and 2016
 ##
 
 #### Question 2
 
-Which objects can be sliced by slicers? Choose 3 that apply.
+Which objects can be sliced by slicers?
+
+:heavy_check_mark: Pivot Charts
+
+:heavy_check_mark: Pivot Tables
+
+:heavy_check_mark: Tables
 ##
 
 #### Question 3
 
 When would you use both a slicer and a filter based on the same field?
+
+:heavy_check_mark: When you want to search items and apply the results on multiple PivotTables
 ## 
 
 #### Question 4
@@ -334,6 +445,8 @@ You have the following slicers.
 ![App Screenshot](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Q2.png)
 
 Why are Bike Racks, Fenders and Gloves at the bottom of the Sub Category slicer in a lighter color?
+
+:heavy_check_mark: During 2015, there were no sales for these sub categories.
 ##
 
 #### Question 5
@@ -343,6 +456,8 @@ You have the following slicers.
 ![App Screenshot](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Q3.png)
 
 What will happen if you click "Bike Racks"?
+
+:heavy_check_mark: All Pivot Tables connected to both year and sub category slicers will be blank.
 ##
 
 ### Scenario
@@ -398,6 +513,8 @@ Once I've done the above, I'am ready to present the dashboard to Lucy.
 #### Question 1
 
 A quick glance on the **Yearly Sales by Country** shows that **Australia** has an unusual trend compared to the other countries. Which year does **Australia** have the least sales (revenue)??
+
+:heavy_check_mark: 2011
 ##
 
 Create an additional pivot chart to show **Sales by Country** using **Pie** chart. Show percentages for each slice of the pie and connect the chart to all the slicers, except the **Country** slicer. Overall, Australia commands 25% of the company's total sales. But in some of the years, this proportion changes.
@@ -406,11 +523,15 @@ Create an additional pivot chart to show **Sales by Country** using **Pie** char
 #### Question 2
 
 What is the percentage of **Australia** sales (of total sales) in the year that it has the least sales (previous question)?
+
+:heavy_check_mark: 28%
 ##
 
 #### Question 3
 
 Let's filter the charts by **Australia** using the **Country** slicer. What might be the cause of this trend?
+
+:heavy_check_mark: The sharp fluctuations of bicycle sales.
 ##
 
 Based on the previous answer, create an additional pivot chart to show **Sales by Category** using a **Pie** chart. Show percentages for each slice of the pie and connect the chart to all the slicers, except the **Category** slicer.
@@ -421,11 +542,15 @@ For the next two questions, filter the charts by **Australia** using the country
 #### Question 4
 
 Based only on years where all three categories have sales (there are three slices in the pie) in Australia, which year does the **Bikes** category have the lowest proportion of sales?
+
+:heavy_check_mark: 2014
 ##
 
 #### Question 5
 
 What is the percentage of **Bikes** sales (of total sales) in that year (based on the previous question)?
+
+:heavy_check_mark: 59%
 ##
 
 ### Lab 4B
@@ -436,11 +561,21 @@ Create an additional pivot chart to show **Sales by Customer Gender** using **Pi
 #### Question 1
 
 Which statement best describes the proportion of sales by customer gender?
+
+:heavy_check_mark: Sales are pretty much evenly split between male and female customers.
 ##
 
 #### Question 2
 
 Which Bike's frame size is more popular for each **Gender**? Place the **Frame size** into the appropriate box.
+
+**38, 42, 44, 46, 48, 50**
+
+![App Screenshot](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Q12.png)
+
+Zone 1 :heavy_check_mark: 42
+
+Zone 2 :heavy_check_mark: 38
 ##
 
 What about Customer Gender vs age group? Right now the **Sales by Age Group** chart does not differentiate by **Gender**. Modify this chart to be a **Column** chart. Show the **Customer Gender** side-by-side for each age group. Ensure that the chart is connected to all slicers. Last but not least, sort the **Age Group** appropriately.
@@ -449,6 +584,10 @@ What about Customer Gender vs age group? Right now the **Sales by Age Group** ch
 #### Question 3
 
 In **Australia**, which **Age Group** has more sales revenue to females than to males?
+
+:heavy_check_mark: Young Adults (25-34)
+
+:heavy_check_mark: Adults (35-64)
 ##
 
 ### Quiz time 
@@ -457,10 +596,23 @@ In **Australia**, which **Age Group** has more sales revenue to females than to 
 
 You have a sales table that contains “Quantity,” “Unit Price,” and “Unit Cost.” How could you add the following calculations to be used in a PivotTable?
 
-- Total Cost?
-- Total Revenue?
-- Total Profit?
-- Profit Margin?
+Total Cost?
+ 
+:heavy_check_mark: Add a calculated column in the table (Total Cost = Unit Cost * Quantity).
+
+Total Revenue?
+
+:heavy_check_mark: Add a calculated column in the table (Total Revenue = Unit Price * Quantity).
+
+Total Profit?
+
+:heavy_check_mark: Add a Pivot Table calculated field (Total Profit = Revenue - Cost).
+
+:heavy_check_mark: Add a calculated column in the table (Total Profit = Revenue - Cost).
+
+Profit Margin?
+
+:heavy_check_mark: Add a PivotTable calculated field: Profit Margin = (Revenue - Cost) / Revenue.
 ##
 
 #### Question 2
@@ -468,6 +620,8 @@ You have a sales table that contains “Quantity,” “Unit Price,” and “Un
 ![App Screenshot](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Q4.png)
 
 Conditional formatting (Green – Yellow – Red Color Scale) was applied on the above PivotTable. What can you change to the formatting to better visualize possible outliers in the data?
+
+:heavy_check_mark: Modify the percentiles for maximum and minimum values.
 ##
 
 ### Scenario
@@ -496,9 +650,13 @@ Filter the pivot table for **Australia** and **2016**, and answer the following 
 
 Which **Sub Category** sold the most quantity?
 
+:heavy_check_mark: Tires and Tubes
+
 #### Question 2
 
 Which Sub Category has the most revenue?
+
+:heavy_check_mark: Road Bikes
 ##
 
 Now, add a calculated field to your pivot table, name the field **Margin** with the value derived from the **Profit** and **Revenue** column. Format the field as percentage with two decimal places.
@@ -507,19 +665,27 @@ Now, add a calculated field to your pivot table, name the field **Margin** with 
 #### Question 3
 
 What is the total margin for Australia in the year 2016?
+
+:heavy_check_mark: 33.74%
 ##
 
 #### Question 4
 
 Using the same filters, which category has the lowest margin?
+
+:heavy_check_mark: Clothing
 ##
 
 Now, apply Color scales conditional formatting to **Margin** for the **Sub Category** level.
+
+:heavy_check_mark: Caps
 ##
 
 #### Question 5
 
 Which Sub Category has the lowest margin?
+
+:heavy_check_mark:
 ##
 
 Let's dig a little deeper. Add the **Product** field to the **Rows**, under **Sub Category**. Ensure that the **Year** and **Country** filter still select **2016** and **Australia** respectively. Apply **Color scales** conditional formatting only to the cells showing the **margin** for the **Product**.
@@ -528,6 +694,8 @@ Let's dig a little deeper. Add the **Product** field to the **Rows**, under **Su
 #### Question 6
 
 Which product has the least margin?
+
+:heavy_check_mark: Short-Sleeve Classic Jersey, M
 ##
 
 ### Quiz time 
@@ -535,22 +703,36 @@ Which product has the least margin?
 #### Question 1
 
 What is the main advantage of referencing cells in a Pivot Table with the GetPivotData() function rather than by regular cell reference?
+
+:heavy_check_mark: It returns the same values even if the layout of the data changes.
 ##
 
 #### Question 2
 
-What are the disadvantages of referencing cells in a Pivot Table with the GetPivotData() function and not by regular cell reference? Choose three that apply.
+What are the disadvantages of referencing cells in a Pivot Table with the GetPivotData() function and not by regular cell reference?
+
+:heavy_check_mark: The function is not adjusted when it is dragged across cells.
+
+:heavy_check_mark: It is very complicated to edit the function and to write it manually.
 ##
 
 #### Question 3
 
 What are the advantages of creating aggregates using SUMIFS() rather than using a Pivot Table? 
+
+:heavy_check_mark: SUMIFS() formulas can be arranged in flexible formats in the grid and formulas' comparison operators are not restricted to equality.
+
+:heavy_check_mark: SUMIFS() formulas do not require refreshes to reflect changes in the data.
 ##
 
 #### Question 4
 
 What are the disadvantages of creating aggregates using SUMIFS() rather than using a Pivot Table? 
-##
+
+:heavy_check_mark: A range with SUMIFS formulas is much more difficult to change if you need to include more or fewer fields, whereas Pivot Tables shrink and expand dynamically based on the data.
+
+:heavy_check_mark: On a report based on SUMIFS() formulas, you are unable to implement simple drill downs and drill ups.
+## 
 
 ### Scenario
 
@@ -646,26 +828,36 @@ When you're done, you should have something like this (the below is just an exam
 #### Question 1
 
 Without applying any filter, which year does the **Accessories** category have negative growth?
+
+:heavy_check_mark: 2015
 ##
 
 #### Question 2
 
 Filter the report for **Youth Age Group**. Which two years do the **Accessories** category have negative growth?
+
+:heavy_check_mark: 2014, 2016
 ##
 
 #### Question 3
 
 Without applying any filter, which two years do the **Bikes** category have negative growth?
+
+:heavy_check_mark: 2014, 2016
 ##
 
 #### Question 4
 
 Filter the report for **Australia**. Which year do the **Bikes** category have the highest growth?
+
+:heavy_check_mark: 2015
 ##
 
 #### Question 5
 
 Keep the Australia filter. In the year that **Bikes** sales have the highest growth (previous question), which **Sub Category** of **Bikes** has the highest growth?
+
+:heavy_check_mark: Mountain Bikes
 ##
 
 ### Quiz time
@@ -678,16 +870,26 @@ How would you modify the following formula to include age ranges in the followin
 =SUMIFS(SalesTable[Revenue],SalesTable[Customer Gender],B$4,SalesTable[Country],$A5)
 ```
 ![App Screenshot](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Q8.png)
+
+:heavy_check_mark:  
+
+```bash
+=SUMIFS(SalesTable[Revenue],SalesTable[Customer Gender],B$4,SalesTable[Country],$A5,SalesTable[Customer Age],">="&$B$1,SalesTable[Customer Age],"<="&$B$2)
+```
 ##
 
 #### Question 2
 
 What is the main purpose of using the Treemap and Sunburst charts to display data? 
+
+:heavy_check_mark: To show the relative size at different levels of a hierarchy.
 ##
 
 #### Question 3
 
 You want to create a SUMIFS() formula that references a specific cell in your spreadsheet as you copy it to a range of data containing multiple columns. What should you do?
+
+:heavy_check_mark: Use a mix of absolute and relative reference in your formula.
 ##
 
 ### Scenario
@@ -740,26 +942,72 @@ Once your table is populated, remove the fields from the Rows, Columns, and Valu
 #### Question 1
 
 Explore the sales composition of **Bikes** category for each **Age Group**. Which **Age Group** does the composition (rank of sales) differ than the rest?
+
+:heavy_check_mark: Seniors
 ##
 
 #### Question 2
 
 Now explore the sales composition of **Bikes** category for each **Age Group**, for the **Male** customers. Which **Age Group** does the composition (rank of sales) differ than the rest?
+
+:heavy_check_mark: The composition are the same across Age Group for Male customers.
 ##
 
 #### Question 3
 
 Clear all filters. Now, filter for the year **2016** and **Germany**. Rank the sales from the highest to lowest for the **Clothing** category. 
+
+**Vests, Caps, Jerseys, Shorts, Gloves, Socks**
+
+:heavy_check_mark: Jerseys
+
+:heavy_check_mark: Vests
+
+:heavy_check_mark: Caps
+
+:heavy_check_mark: Gloves
+
+:heavy_check_mark: Shorts
+
+:heavy_check_mark: Socks
 ##
 
 #### Question 4
 
 Keep the filter settings and add filter by **Male** customers. Rank the sales from the highest to lowest for the **Clothing** category.
+
+**Vests, Caps, Jerseys, Shorts, Gloves, Socks**
+
+:heavy_check_mark: Jerseys
+
+:heavy_check_mark: Vests
+
+:heavy_check_mark: Gloves
+
+:heavy_check_mark: Caps
+
+:heavy_check_mark: Shorts
+
+:heavy_check_mark: Socks
 ##
 
 #### Question 5
 
 Keep the filter settings and add filter by **Youth Age Group**. Rank the sales from the highest to lowest for the **Clothing** category.
+
+**Vests, Caps, Jerseys, Shorts, Gloves, Socks**
+
+:heavy_check_mark: Jerseys
+
+:heavy_check_mark: Gloves
+
+:heavy_check_mark: Caps
+
+:heavy_check_mark: Vests
+
+:heavy_check_mark: Socks
+
+:heavy_check_mark: Shorts
 ##
 
 ### Quiz time
@@ -767,6 +1015,10 @@ Keep the filter settings and add filter by **Youth Age Group**. Rank the sales f
 #### Question 1
 
 You want combine data in two ranges/tables in a single pivot. What should you do?
+
+:heavy_check_mark: Click ‘More Tables…’ from the pivot field list, and create relationships between the different ranges.
+
+:heavy_check_mark: Combine the different ranges into one range using VLOOKUP formulas.
 ##
 
 ### Scenario
@@ -798,6 +1050,12 @@ This Excel file contains two charts that. The Composition worksheet contains a *
 #### Question 1
 
 For those customers who bought bikes, what are the top **three** (bought the most quantity) customer profiles (marital status and number of children)?
+
+:heavy_check_mark: Single without child
+
+:heavy_check_mark: Married with one child
+
+:heavy_check_mark: Married with two children
 ##
 
 Now, remove the MaritalStatus and TotalChildren fields from the Rows and replace them with the YearlyIncome field from the Customer_demographic table.
@@ -806,6 +1064,14 @@ Now, remove the MaritalStatus and TotalChildren fields from the Rows and replace
 #### Question 2
 
 What are the three income brackets for customers who bought the most bikes (quantity), in order from the income bracket with the highest number of sales (in Zone 1) to income bracket with the lowest number of sales (in Zone 3)?
+
+**30000, 40000, 50000, 60000, 70000**
+
+Zone 1 :heavy_check_mark: 40000
+
+Zone 2 :heavy_check_mark: 60000
+
+Zone 3 :heavy_check_mark: 70000
 ##
 
 Now, remove the YearlyIncome field from the Rows and replace it with the EnglishEducation field from the Customer_demographic table.
@@ -814,6 +1080,10 @@ Now, remove the YearlyIncome field from the Rows and replace it with the English
 #### Question 3
 
 For those customers who bought bikes, what are the top **two** (bought the most quantity) education levels?
+
+:heavy_check_mark: Partial College
+
+:heavy_check_mark: Bachelors
 ##
 
 Lastly, remove the **EnglishEducation** field from the Rows and replace it with the **HouseOwnerFlag** field from the **Customer_demographics** table. Format the **Sum of Order Quantity** to show as Percentage of Grand Total with two decimal places.
@@ -822,6 +1092,8 @@ Lastly, remove the **EnglishEducation** field from the Rows and replace it with 
 #### Question 4
 
 What is the percentage of the customers who bought **Bikes** and are house owners?
+
+:heavy_check_mark: 68.72%
 
 
 
