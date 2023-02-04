@@ -10,6 +10,8 @@ The company has just hired Lucy as its new Sales manager. I'm tasked to introduc
 ![App Screenshot](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Lucy%20and%20Jack.png)
 
 Now, it's my job to present this data in a compelling manner.
+
+If you would like to skip everything to view the answers of questions, you can view my step by step file with answers [here](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/StepbyStepSolution.md).
 ##
 
 ### Lab 1
