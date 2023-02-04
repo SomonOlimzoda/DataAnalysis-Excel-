@@ -11,7 +11,7 @@ The company has just hired Lucy as its new Sales manager. I'm tasked to introduc
 
 Now, it's my job to present this data in a compelling manner.
 
-If you would like to see the answers of questions, you can view my step by step file with answers [here](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/StepbyStepSolution.md)
+If you would like to see the answers of questions, click [here](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/StepbyStepSolution.md)
 ##
 
 ### Lab 1
