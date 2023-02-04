@@ -17,21 +17,13 @@ Now, it's my job to present this data in a compelling manner.
 Download the lab file [Lab1Start v5.xlsx](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Lab1Start%20v5.xlsx) to answer the questions below.
 
 The first thing I'd like to do is to present the data graphically. I will do this by creating charts for the three groups of data received from Jack, our IT manager. I give each chart a descriptive title as shown in the three charts below.
-
-A solution should look like this (numbers may not be the same).
 ##
 
 ![App Screenshot](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/1.png)
 
 Once you have created the three charts above, let's customize them a little bit more.
-##
 
 For the **Yearly Category Revenue** chart, display the total revenue for each year as a separate line.
-
-1. Create a Total Revenue line in the range C7 to H7 by summing the annual revenue in rows 3 through 6. Label the row as Total Revenue in cell B7
-2. Select the **Yearly Category Revenue** chart.
-3. The data source for the chart is highlighted.
-4. Drag the highlighted selection to include the total row (B7 to H7)
 ##
 
 #### Question 1
@@ -40,10 +32,6 @@ What does the Yearly total sales look like?
 ##
 
 For the **Revenue by Category** chart, display the percentage for each category.
-
-1. Select the **Revenue by Category** chart.
-2. From the Chart Tools **Design** tab, change the chart style to display the data as a percentage including the data label as percentages. 
-You can do this by either selecting a style from the **Chart Styles** group or from the **Chart Layouts** group by selecting one of the **Quick Layouts**.
 ##
 
 #### Question 2
@@ -52,17 +40,11 @@ What percentage of the total revenue comes from the **Bikes** category?
 ##
 
 For the **Revenue by Country** chart, sort the countries to display the one with the highest revenue showing at the top and the one with the lowest revenue at the bottom.
-
-1. Select the data source for the **Revenue by Country** chart.
-2. Sort the data by **Revenue** from **Largest to Smallest** ensuring you also sort the countries with the revenue.
-3. Select the **Revenue by Country** chart.
-4. Select the Y axis, the axis that shows the country name.
-5. Select **Categories in reverse order** in the **Axis options**.
 ##
 
 #### Question 3
 
-Rank the Countries from the highest to lowest revenue. 
+Rank the Countries from the highest to lowest revenue(Canada, United States, Germany, Australia, United Kingdom, France)
 ##
 
 ### Quiz time 
@@ -108,7 +90,7 @@ Download the lab file [Lab2Start v5.xlsx](https://github.com/SomonOlimzoda/DataA
 
 The first thing I need to do is to convert the data into an Excel table.
 
-Once I do that, I can add total row, filter the data, and the total will reflect the total only for the filtered data.
+Once it is done, I can add total row, filter the data, and the total will reflect the total only for the filtered data.
 
 Add a total row for the table, and use the Sum aggregation to show the total of the **Revenue** column and then filter the data only for **United States**.
 ##
@@ -166,12 +148,16 @@ Download the quiz file [SalesForCourse_quizz_table.xlsx](https://github.com/Somo
 
 You have the following Pivot Table fields. You need to calculate the number of sales transactions by age. Drag the appropriate field names and aggregated field names to the appropriate Pivot Table Areas (Filters, Rows, Columns, or Values) to perform the task
 
+**Customer Age, Revenue, Sum of Customer Age, Count of Customer Age, Sum of Revenue**
+
 ![App Screenshot](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Q10.png)
 ##
 
 #### Q2. Drag and Drop
 
 You have the following Pivot Table fields. Your manager asks you to build a pivot table that shows revenue by state and country. How would you arrange the field names and aggregated field names to the appropriate Pivot Table Areas (Filters, Rows, Columns, or Values)?
+
+**State, Country, Count of Revenue, Sum of Revenue**
 
 ![App Screenshot](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Q11.png)
 ##
@@ -244,11 +230,15 @@ Insert another pivot table to the same sheet, next to the existing pivot table. 
 #### Question 2
 
 Rank the **States** for **Germany**, from the highest to lowest revenue.
+
+**Saarland, Hessen, Brandenburg, Nordrhein-Westfalen, Hamburg, Bayern**
 ##
 
 #### Question 3
 
-What about for the year 2013? Rank from the highest to lowest revenue. 
+What about for the year 2013? Rank from the highest to lowest revenue.
+
+**Saarland, Hessen, Brandenburg, Nordrhein-Westfalen, Hamburg, Bayern**
 ##
 
 Let's add another pivot table. This time arrange the layout so that the pivot table displays the **Frame Size** in the **Rows** and **Revenue** (Sum of) as the **Values**. Hide the rows that do not have a Frame size (blank Frame size), then sort the pivot table by **Sum of Revenue** so that the **Frame size** with the highest revenue is displayed first.
@@ -380,15 +370,8 @@ For easy reference, let's give the charts titles if they don't have any, or rena
 You can now add slicers to the sheet. Select the Yearly Sales by Country chart, and add seven slicers corresponding to Year, Country, Customer Gender, Age Group, Product Category, Sub Category and Frame Size. Arrange the slicers as appropriate.
 ##
 
-The next thing you need to do is to connect these slicers to the charts. Let's do this chart by chart.
-
-1. Connect the **Yearly Sales by Country** chart to all slicers, except the **Year** slicer. In another words, disconnect the **Year** slicer from the **Yearly Sales by Country**
-2. Connect the **Yearly Sales by Category** chart to the **Age Group**, **Country**, **Customer Gender**, and **Frame Size** slicers.
-3. Connect the Sales by **Frame Size** chart to all slicers, except the **Frame Size** slicer.
-4. Connect the Sales by **Age Group** chart to all slicers, except the **Age Group**.
+The next thing you need to do is to connect these slicers to the charts.
 ##
-
-For niceties, you can clear the **Gridlines** on the Dashboard,
 
 Once I've done the above, I'am ready to present the dashboard to Lucy.
 ##
@@ -439,6 +422,8 @@ Which statement best describes the proportion of sales by customer gender?
 #### Question 2
 
 Which Bike's frame size is more popular for each **Gender**? Place the **Frame size** into the appropriate box.
+
+**38, 42, 44, 46, 48, 50**
 ##
 
 What about Customer Gender vs age group? Right now the **Sales by Age Group** chart does not differentiate by **Gender**. Modify this chart to be a **Column** chart. Show the **Customer Gender** side-by-side for each age group. Ensure that the chart is connected to all slicers. Last but not least, sort the **Age Group** appropriately.
@@ -570,66 +555,25 @@ Now, I will create two reports. One with the sales for each year and the other w
 ##
 
 Let's start by adding a new sheet named **Growth**. Starting in cell B1, add a new pivot table using SalesTable as the source with **Country**, **Customer Gender**, and **Age Group** as Filters, **Product Category** and **Sub Category** as Rows, **Year** as Columns, and **Sum of Revenue** as Values.
-
-Now, copy the structure of the rows and columns to the cells next to the pivot table, that is, copy the **Years** labels in C6:H6 (excluding the Grand Total) to range L6:Q6, and the Product categories and Sub categories labels in B7:B26 (excluding the Grand Total) to range K7:K26. Highlight and copy range B6:H26, place your cursor in cell K6, right click and from the Paste Options, select Formatting (R).
-
-Alternatively, you can select B6:H26, place your cursor in cell K6, right click and from the Paste Options, select Values (V) and then, once again right click in cell K6, and from the Paste Options, select Formatting (R). After which, delete the data area.
 ##
 
-Populate the data area of the newly created cross tabular structure using SUMIFS() function. Assuming that you have:
-
-- K7: Product Category eg "Accessories"
-- Q6: Year eg. "2016"
-- C1: Country Filter
-- C2: Customer Gender Filter
-- C3: Age Group Filter
+Populate the data area of the newly created cross tabular structure using SUMIFS() function.
 ##
 
 Then, the cell that corresponds to **Year 2016** for the **Product Category Accessories** would have the following formula
-
-```bash
-=SUMIFS(SalesTable[Revenue], 
-SalesTable[Product Category],$K7, 
-SalesTable[Year],Q$6, 
-SalesTable[Country],IF($C$1="(All)","*",$C$1), 
-SalesTable[Customer Gender],IF($C$2="(All)","*",$C$2), 
-SalesTable[Age Group],IF($C$3="(All)","*",$C$3))
-```
-
 ##
+
 Confirm that your filter boxes (cells C1, C2 and C3) contain the same value that is used in the formula (All). If not, then replace the “(All)” with the exact value found in your filter boxes (it could be All or your language’s word for All. (Note that you will have to confirm these values for the next set of formulas as well)
 
 Now, copy this formula (using Ctrl C keyboard combination) and paste it (using Ctrl V keyboard combination) into the other Years and Product Category cells for all three categories (Accessories, Bikes, Clothing). When you are done, your calculated values in cells L7:Q7, L16:Q16 and L20:Q20 should match their respective pivot table values.
 ##
 
-In addition, assuming that you have:
-
-- K8: Sub Category eg "Bike Racks"
-- Q6: Year eg. "2016"
-- C1: Country Filter
-- C2: Customer Gender Filter
-- C3: Age Group Filter
-##
-
-Then, the cell that corresponds to **Year 2016** for the **Sub Category Bike Racks** would have the following formula
-
-```bash
-=SUMIFS(SalesTable[Revenue], 
-SalesTable[Sub Category],$K8, 
-SalesTable[Year],Q$6, 
-SalesTable[Country],IF($C$1="(All)","*",$C$1), 
-SalesTable[Customer Gender],IF($C$2="(All)","*",$C$2), 
-SalesTable[Age Group],IF($C$3="(All)","*",$C$3))
-```
-##
 Now, copy this formula and paste it into the other Years and Sub Category cells. When I finish it, my calculated values in these cells should match their respective pivot table values.
 
 Once my table is populated, I remove the fields from the Rows, Columns, and Values of the Pivot table, so that only the filters remains. Align the filters with my cross tabular report and add sparklines (to show the series high point) next to the column containing the last year of data.
 ##
 
-Upon completion the first cross tabular report, I will create another one with the same structure next to it (excluding the 2011 column). This time, for % Change in Revenue, which is essentially the difference between the two years, divided by the previous year. For example, one formula could be:
-
-=IF(C7<>0,(D7-C7)/C7,0)
+Upon completion the first cross tabular report, I will create another one with the same structure next to it (excluding the 2011 column). This time, for % Change in Revenue, which is essentially the difference between the two years, divided by the previous year.
 
 Present the data as percentage without decimal places. Apply an **Icon Sets** conditional formatting to differentiate positive and negative growth. Edit your conditional formatting icon set rules to display the icons similar to the rule below:
 ##
@@ -710,28 +654,9 @@ Format the pivot table to show in **Tabular** form, **do not show subtotals** an
 Now, copy the structure of the rows and columns to the cells next to the pivot table, that is the **Product categories** and **Sub categories** as Rows. Delete the data area for now.
 ##
 
-Populate the data area of the newly created cross tabular structure using SUMIFS() function. Assuming that you have:
-
-- F7: Product Category eg. "Accessories"
-- G7: Sub Category eg. "Bike Racks"
-- C1: Year filter
-- C2: Country Filter
-- C3: Customer Gender Filter
-- C4: Age Group Filter
+Populate the data area of the newly created cross tabular structure using SUMIFS() function.
 ##
 
-Then, the cell that corresponds the Product Category Accessories and Sub Category Bike Racks would have the following formula:
-
-```bash
-=SUMIFS(SalesTable[Revenue], 
-SalesTable[Product Category],$F7, 
-SalesTable[Sub Category],$G7, 
-SalesTable[Year],IF($C$1="(All)",">0",$C$1), 
-SalesTable[Country],IF($C$2="(All)","*",$C$2), 
-SalesTable[Customer Gender],IF($C$3="(All)","*",$C$3), 
-SalesTable[Age Group],IF($C$4="(All)","*",$C$4)) 
-```
-##
 Once your table is populated, remove the fields from the Rows, Columns, and Values of the Pivot table, so that only the filters remains. Align the filters with your cross tabular report. Create a treemap or sunburst chart based on the data in the cross tabular report. Name the chart "Sales Composition".
 ##
 
@@ -747,17 +672,23 @@ Now explore the sales composition of **Bikes** category for each **Age Group**, 
 
 #### Question 3
 
-Clear all filters. Now, filter for the year **2016** and **Germany**. Rank the sales from the highest to lowest for the **Clothing** category. 
+Clear all filters. Now, filter for the year **2016** and **Germany**. Rank the sales from the highest to lowest for the **Clothing** category.
+
+**Vests, Caps, Jerseys, Shorts, Gloves, Socks**
 ##
 
 #### Question 4
 
 Keep the filter settings and add filter by **Male** customers. Rank the sales from the highest to lowest for the **Clothing** category.
+
+**Vests, Caps, Jerseys, Shorts, Gloves, Socks**
 ##
 
 #### Question 5
 
 Keep the filter settings and add filter by **Youth Age Group**. Rank the sales from the highest to lowest for the **Clothing** category.
+
+**Vests, Caps, Jerseys, Shorts, Gloves, Socks**
 ##
 
 ### Quiz time
@@ -778,7 +709,9 @@ Workaround: Alternatively, the customer demographics is also provided as a txt f
 
 Download a file [Lab8Start v5.xlsx](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/Lab8Start%20v5.xlsx). 
 
-This Excel file contains two charts that. The Composition worksheet contains a **Treemap** and **Sunburst** chart. 
+This Excel file contains two charts that. The Composition worksheet contains a **Treemap** and **Sunburst** charts. 
+
+Required steps to do before answer following questions:
 
 1. From a new worksheet, go to the **Data** tab and on the **Get External Data** group, select the **From Access** option. This will bring up the **Select Data Source** dialog box.
 
@@ -804,6 +737,8 @@ Now, remove the MaritalStatus and TotalChildren fields from the Rows and replace
 #### Question 2
 
 What are the three income brackets for customers who bought the most bikes (quantity), in order from the income bracket with the highest number of sales (in Zone 1) to income bracket with the lowest number of sales (in Zone 3)?
+
+**30000, 40000, 50000, 60000, 70000**
 ##
 
 Now, remove the YearlyIncome field from the Rows and replace it with the EnglishEducation field from the Customer_demographic table.
