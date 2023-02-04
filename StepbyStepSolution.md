@@ -317,17 +317,17 @@ Rank the **States** for **Germany**, from the highest to lowest revenue.
 
 **Saarland, Nordrhein-Westfalen, Hessen, Brandenburg, Hamburg, Bayern**
 
-:heavy_check_mark: Hessen
+:heavy_check_mark: 1. Hessen
 
-:heavy_check_mark: Saarland
+:heavy_check_mark: 2. Saarland
 
-:heavy_check_mark: Nordrhein-Westfalen
+:heavy_check_mark: 3. Nordrhein-Westfalen
 
-:heavy_check_mark: Hamburg
+:heavy_check_mark: 4. Hamburg
 
-:heavy_check_mark: Bayern
+:heavy_check_mark: 5. Bayern
 
-:heavy_check_mark: Brandenburg
+:heavy_check_mark: 6. Brandenburg
 
 ##
 
@@ -337,17 +337,17 @@ What about for the year 2013? Rank from the highest to lowest revenue.
 
 **Saarland, Nordrhein-Westfalen, Hessen, Brandenburg, Hamburg, Bayern**
 
-:heavy_check_mark: Saarland
+:heavy_check_mark: 1. Saarland
 
-:heavy_check_mark: Hessen
+:heavy_check_mark: 2. Hessen
 
-:heavy_check_mark: Nordrhein-Westfalen
+:heavy_check_mark: 3. Nordrhein-Westfalen
 
-:heavy_check_mark: Hamburg
+:heavy_check_mark: 4. Hamburg
 
-:heavy_check_mark: Bayern
+:heavy_check_mark: 5. Bayern
 
-:heavy_check_mark: Brandenburg
+:heavy_check_mark: 6. Brandenburg
 ##
 
 Let's add another pivot table. This time arrange the layout so that the pivot table displays the **Frame Size** in the **Rows** and **Revenue** (Sum of) as the **Values**. Hide the rows that do not have a Frame size (blank Frame size), then sort the pivot table by **Sum of Revenue** so that the **Frame size** with the highest revenue is displayed first.
@@ -967,17 +967,17 @@ Clear all filters. Now, filter for the year **2016** and **Germany**. Rank the s
 
 **Vests, Caps, Jerseys, Shorts, Gloves, Socks**
 
-:heavy_check_mark: Jerseys
+:heavy_check_mark: 1. Jerseys
 
-:heavy_check_mark: Vests
+:heavy_check_mark: 2. Vests
 
-:heavy_check_mark: Caps
+:heavy_check_mark: 3. Caps
 
-:heavy_check_mark: Gloves
+:heavy_check_mark: 4. Gloves
 
-:heavy_check_mark: Shorts
+:heavy_check_mark: 5. Shorts
 
-:heavy_check_mark: Socks
+:heavy_check_mark: 6. Socks
 ##
 
 #### Question 4
@@ -986,17 +986,17 @@ Keep the filter settings and add filter by **Male** customers. Rank the sales fr
 
 **Vests, Caps, Jerseys, Shorts, Gloves, Socks**
 
-:heavy_check_mark: Jerseys
+:heavy_check_mark: 1. Jerseys
 
-:heavy_check_mark: Vests
+:heavy_check_mark: 2. Vests
 
-:heavy_check_mark: Gloves
+:heavy_check_mark: 3. Gloves
 
-:heavy_check_mark: Caps
+:heavy_check_mark: 4. Caps
 
-:heavy_check_mark: Shorts
+:heavy_check_mark: 5. Shorts
 
-:heavy_check_mark: Socks
+:heavy_check_mark: 6. Socks
 ##
 
 #### Question 5
@@ -1005,17 +1005,17 @@ Keep the filter settings and add filter by **Youth Age Group**. Rank the sales f
 
 **Vests, Caps, Jerseys, Shorts, Gloves, Socks**
 
-:heavy_check_mark: Jerseys
+:heavy_check_mark: 1. Jerseys
 
-:heavy_check_mark: Gloves
+:heavy_check_mark: 2. Gloves
 
-:heavy_check_mark: Caps
+:heavy_check_mark: 3. Caps
 
-:heavy_check_mark: Vests
+:heavy_check_mark: 4. Vests
 
-:heavy_check_mark: Socks
+:heavy_check_mark: 5. Socks
 
-:heavy_check_mark: Shorts
+:heavy_check_mark: 6. Shorts
 ##
 
 ### Quiz time
