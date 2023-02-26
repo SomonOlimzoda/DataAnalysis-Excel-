@@ -3,6 +3,8 @@
 ### Scenario
 I'm a new marketing manager of an established Bicycle company. The company sells bicycles and accessories, such as clothing and other accessories to bikers in six countries.
 
+If you would like to see the answers and skip reading part, click [here](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/StepbyStepSolution.md)
+
 ![App Screenshot](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/bicycle.png)
 
 The company has just hired Lucy as its new Sales manager. I'm tasked to introduce Lucy to the company, its product portfolio and its sales performance since 2011. To do this, I should ask Jack, the IT manager to prepare some data for me.
@@ -11,7 +13,6 @@ The company has just hired Lucy as its new Sales manager. I'm tasked to introduc
 
 Now, it's my job to present this data in a compelling manner.
 
-If you would like to see the answers of questions, click [here](https://github.com/SomonOlimzoda/DataAnalysisExcel/blob/main/StepbyStepSolution.md)
 ##
 
 ### Lab 1
